@@ -1,0 +1,1740 @@
+{
+  "source": {
+    "score_beats_csv": "src\\bwv_856\\score_beats_from_midi.csv",
+    "warping_csv": "src\\bwv_856\\warping_path_highres.csv"
+  },
+  "warping_score_time_range": {
+    "min_score_time_sec": 0.0,
+    "max_score_time_sec": 57.13
+  },
+  "beats": [
+    {
+      "beat_index": 1,
+      "measure_number_guess": 1,
+      "beat_in_measure": 1,
+      "score_time_sec": 0.0,
+      "time_sec": 0.37152,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 2,
+      "measure_number_guess": 1,
+      "beat_in_measure": 2,
+      "score_time_sec": 0.25,
+      "time_sec": 1.27652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 3,
+      "measure_number_guess": 1,
+      "beat_in_measure": 3,
+      "score_time_sec": 0.5,
+      "time_sec": 1.52452,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 4,
+      "measure_number_guess": 1,
+      "beat_in_measure": 4,
+      "score_time_sec": 0.75,
+      "time_sec": 1.75852,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 5,
+      "measure_number_guess": 1,
+      "beat_in_measure": 5,
+      "score_time_sec": 1.0,
+      "time_sec": 1.98652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 6,
+      "measure_number_guess": 1,
+      "beat_in_measure": 6,
+      "score_time_sec": 1.25,
+      "time_sec": 2.21552,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 7,
+      "measure_number_guess": 1,
+      "beat_in_measure": 7,
+      "score_time_sec": 1.5,
+      "time_sec": 2.47652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 8,
+      "measure_number_guess": 1,
+      "beat_in_measure": 8,
+      "score_time_sec": 1.75,
+      "time_sec": 2.70952,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 9,
+      "measure_number_guess": 1,
+      "beat_in_measure": 9,
+      "score_time_sec": 2.0,
+      "time_sec": 2.95652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 10,
+      "measure_number_guess": 1,
+      "beat_in_measure": 10,
+      "score_time_sec": 2.25,
+      "time_sec": 3.19752,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 11,
+      "measure_number_guess": 1,
+      "beat_in_measure": 11,
+      "score_time_sec": 2.5,
+      "time_sec": 3.43652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 12,
+      "measure_number_guess": 1,
+      "beat_in_measure": 12,
+      "score_time_sec": 2.75,
+      "time_sec": 3.67952,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 13,
+      "measure_number_guess": 2,
+      "beat_in_measure": 1,
+      "score_time_sec": 3.0,
+      "time_sec": 3.91352,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 14,
+      "measure_number_guess": 2,
+      "beat_in_measure": 2,
+      "score_time_sec": 3.25,
+      "time_sec": 4.16852,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 15,
+      "measure_number_guess": 2,
+      "beat_in_measure": 3,
+      "score_time_sec": 3.5,
+      "time_sec": 4.38852,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 16,
+      "measure_number_guess": 2,
+      "beat_in_measure": 4,
+      "score_time_sec": 3.75,
+      "time_sec": 4.63952,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 17,
+      "measure_number_guess": 2,
+      "beat_in_measure": 5,
+      "score_time_sec": 4.0,
+      "time_sec": 4.87752,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 18,
+      "measure_number_guess": 2,
+      "beat_in_measure": 6,
+      "score_time_sec": 4.25,
+      "time_sec": 5.10752,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 19,
+      "measure_number_guess": 2,
+      "beat_in_measure": 7,
+      "score_time_sec": 4.5,
+      "time_sec": 5.35652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 20,
+      "measure_number_guess": 2,
+      "beat_in_measure": 8,
+      "score_time_sec": 4.75,
+      "time_sec": 5.60652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 21,
+      "measure_number_guess": 2,
+      "beat_in_measure": 9,
+      "score_time_sec": 5.0,
+      "time_sec": 5.85652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 22,
+      "measure_number_guess": 2,
+      "beat_in_measure": 10,
+      "score_time_sec": 5.25,
+      "time_sec": 6.10452,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 23,
+      "measure_number_guess": 2,
+      "beat_in_measure": 11,
+      "score_time_sec": 5.5,
+      "time_sec": 6.35469,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 24,
+      "measure_number_guess": 2,
+      "beat_in_measure": 12,
+      "score_time_sec": 5.75,
+      "time_sec": 6.55452,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 25,
+      "measure_number_guess": 3,
+      "beat_in_measure": 1,
+      "score_time_sec": 6.0,
+      "time_sec": 6.79252,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 26,
+      "measure_number_guess": 3,
+      "beat_in_measure": 2,
+      "score_time_sec": 6.25,
+      "time_sec": 6.96352,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 27,
+      "measure_number_guess": 3,
+      "beat_in_measure": 3,
+      "score_time_sec": 6.5,
+      "time_sec": 7.27252,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 28,
+      "measure_number_guess": 3,
+      "beat_in_measure": 4,
+      "score_time_sec": 6.75,
+      "time_sec": 7.54952,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 29,
+      "measure_number_guess": 3,
+      "beat_in_measure": 5,
+      "score_time_sec": 7.0,
+      "time_sec": 7.81552,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 30,
+      "measure_number_guess": 3,
+      "beat_in_measure": 6,
+      "score_time_sec": 7.25,
+      "time_sec": 8.02052,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 31,
+      "measure_number_guess": 3,
+      "beat_in_measure": 7,
+      "score_time_sec": 7.5,
+      "time_sec": 8.29952,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 32,
+      "measure_number_guess": 3,
+      "beat_in_measure": 8,
+      "score_time_sec": 7.75,
+      "time_sec": 8.53552,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 33,
+      "measure_number_guess": 3,
+      "beat_in_measure": 9,
+      "score_time_sec": 8.0,
+      "time_sec": 8.80052,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 34,
+      "measure_number_guess": 3,
+      "beat_in_measure": 10,
+      "score_time_sec": 8.25,
+      "time_sec": 9.03852,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 35,
+      "measure_number_guess": 3,
+      "beat_in_measure": 11,
+      "score_time_sec": 8.5,
+      "time_sec": 9.30652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 36,
+      "measure_number_guess": 3,
+      "beat_in_measure": 12,
+      "score_time_sec": 8.75,
+      "time_sec": 9.52037,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 37,
+      "measure_number_guess": 4,
+      "beat_in_measure": 1,
+      "score_time_sec": 9.0,
+      "time_sec": 9.76652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 38,
+      "measure_number_guess": 4,
+      "beat_in_measure": 2,
+      "score_time_sec": 9.25,
+      "time_sec": 10.00752,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 39,
+      "measure_number_guess": 4,
+      "beat_in_measure": 3,
+      "score_time_sec": 9.5,
+      "time_sec": 10.27752,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 40,
+      "measure_number_guess": 4,
+      "beat_in_measure": 4,
+      "score_time_sec": 9.75,
+      "time_sec": 10.52652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 41,
+      "measure_number_guess": 4,
+      "beat_in_measure": 5,
+      "score_time_sec": 10.0,
+      "time_sec": 10.79052,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 42,
+      "measure_number_guess": 4,
+      "beat_in_measure": 6,
+      "score_time_sec": 10.25,
+      "time_sec": 11.00252,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 43,
+      "measure_number_guess": 4,
+      "beat_in_measure": 7,
+      "score_time_sec": 10.5,
+      "time_sec": 11.27052,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 44,
+      "measure_number_guess": 4,
+      "beat_in_measure": 8,
+      "score_time_sec": 10.75,
+      "time_sec": 11.52652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 45,
+      "measure_number_guess": 4,
+      "beat_in_measure": 9,
+      "score_time_sec": 11.0,
+      "time_sec": 11.81125,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 46,
+      "measure_number_guess": 4,
+      "beat_in_measure": 10,
+      "score_time_sec": 11.25,
+      "time_sec": 12.02552,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 47,
+      "measure_number_guess": 4,
+      "beat_in_measure": 11,
+      "score_time_sec": 11.5,
+      "time_sec": 12.28952,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 48,
+      "measure_number_guess": 4,
+      "beat_in_measure": 12,
+      "score_time_sec": 11.75,
+      "time_sec": 12.53152,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 49,
+      "measure_number_guess": 5,
+      "beat_in_measure": 1,
+      "score_time_sec": 12.0,
+      "time_sec": 12.78152,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 50,
+      "measure_number_guess": 5,
+      "beat_in_measure": 2,
+      "score_time_sec": 12.25,
+      "time_sec": 13.05452,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 51,
+      "measure_number_guess": 5,
+      "beat_in_measure": 3,
+      "score_time_sec": 12.5,
+      "time_sec": 13.30452,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 52,
+      "measure_number_guess": 5,
+      "beat_in_measure": 4,
+      "score_time_sec": 12.75,
+      "time_sec": 13.56852,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 53,
+      "measure_number_guess": 5,
+      "beat_in_measure": 5,
+      "score_time_sec": 13.0,
+      "time_sec": 13.80852,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 54,
+      "measure_number_guess": 5,
+      "beat_in_measure": 6,
+      "score_time_sec": 13.25,
+      "time_sec": 14.06852,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 55,
+      "measure_number_guess": 5,
+      "beat_in_measure": 7,
+      "score_time_sec": 13.5,
+      "time_sec": 14.34752,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 56,
+      "measure_number_guess": 5,
+      "beat_in_measure": 8,
+      "score_time_sec": 13.75,
+      "time_sec": 14.61352,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 57,
+      "measure_number_guess": 5,
+      "beat_in_measure": 9,
+      "score_time_sec": 14.0,
+      "time_sec": 14.85252,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 58,
+      "measure_number_guess": 5,
+      "beat_in_measure": 10,
+      "score_time_sec": 14.25,
+      "time_sec": 15.10452,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 59,
+      "measure_number_guess": 5,
+      "beat_in_measure": 11,
+      "score_time_sec": 14.5,
+      "time_sec": 15.37052,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 60,
+      "measure_number_guess": 5,
+      "beat_in_measure": 12,
+      "score_time_sec": 14.75,
+      "time_sec": 15.62952,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 61,
+      "measure_number_guess": 6,
+      "beat_in_measure": 1,
+      "score_time_sec": 15.0,
+      "time_sec": 15.89052,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 62,
+      "measure_number_guess": 6,
+      "beat_in_measure": 2,
+      "score_time_sec": 15.25,
+      "time_sec": 16.14552,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 63,
+      "measure_number_guess": 6,
+      "beat_in_measure": 3,
+      "score_time_sec": 15.5,
+      "time_sec": 16.39952,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 64,
+      "measure_number_guess": 6,
+      "beat_in_measure": 4,
+      "score_time_sec": 15.75,
+      "time_sec": 16.64752,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 65,
+      "measure_number_guess": 6,
+      "beat_in_measure": 5,
+      "score_time_sec": 16.0,
+      "time_sec": 16.90852,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 66,
+      "measure_number_guess": 6,
+      "beat_in_measure": 6,
+      "score_time_sec": 16.25,
+      "time_sec": 17.15652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 67,
+      "measure_number_guess": 6,
+      "beat_in_measure": 7,
+      "score_time_sec": 16.5,
+      "time_sec": 17.44952,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 68,
+      "measure_number_guess": 6,
+      "beat_in_measure": 8,
+      "score_time_sec": 16.75,
+      "time_sec": 17.71252,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 69,
+      "measure_number_guess": 6,
+      "beat_in_measure": 9,
+      "score_time_sec": 17.0,
+      "time_sec": 17.97752,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 70,
+      "measure_number_guess": 6,
+      "beat_in_measure": 10,
+      "score_time_sec": 17.25,
+      "time_sec": 18.21352,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 71,
+      "measure_number_guess": 6,
+      "beat_in_measure": 11,
+      "score_time_sec": 17.5,
+      "time_sec": 18.45452,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 72,
+      "measure_number_guess": 6,
+      "beat_in_measure": 12,
+      "score_time_sec": 17.75,
+      "time_sec": 18.70552,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 73,
+      "measure_number_guess": 7,
+      "beat_in_measure": 1,
+      "score_time_sec": 18.0,
+      "time_sec": 18.96352,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 74,
+      "measure_number_guess": 7,
+      "beat_in_measure": 2,
+      "score_time_sec": 18.25,
+      "time_sec": 19.24052,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 75,
+      "measure_number_guess": 7,
+      "beat_in_measure": 3,
+      "score_time_sec": 18.5,
+      "time_sec": 19.48252,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 76,
+      "measure_number_guess": 7,
+      "beat_in_measure": 4,
+      "score_time_sec": 18.75,
+      "time_sec": 19.70652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 77,
+      "measure_number_guess": 7,
+      "beat_in_measure": 5,
+      "score_time_sec": 19.0,
+      "time_sec": 19.92952,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 78,
+      "measure_number_guess": 7,
+      "beat_in_measure": 6,
+      "score_time_sec": 19.25,
+      "time_sec": 20.19052,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 79,
+      "measure_number_guess": 7,
+      "beat_in_measure": 7,
+      "score_time_sec": 19.5,
+      "time_sec": 20.47252,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 80,
+      "measure_number_guess": 7,
+      "beat_in_measure": 8,
+      "score_time_sec": 19.75,
+      "time_sec": 20.80352,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 81,
+      "measure_number_guess": 7,
+      "beat_in_measure": 9,
+      "score_time_sec": 20.0,
+      "time_sec": 21.04852,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 82,
+      "measure_number_guess": 7,
+      "beat_in_measure": 10,
+      "score_time_sec": 20.25,
+      "time_sec": 21.25352,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 83,
+      "measure_number_guess": 7,
+      "beat_in_measure": 11,
+      "score_time_sec": 20.5,
+      "time_sec": 21.50352,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 84,
+      "measure_number_guess": 7,
+      "beat_in_measure": 12,
+      "score_time_sec": 20.75,
+      "time_sec": 21.81152,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 85,
+      "measure_number_guess": 8,
+      "beat_in_measure": 1,
+      "score_time_sec": 21.0,
+      "time_sec": 22.06252,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 86,
+      "measure_number_guess": 8,
+      "beat_in_measure": 2,
+      "score_time_sec": 21.25,
+      "time_sec": 22.36152,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 87,
+      "measure_number_guess": 8,
+      "beat_in_measure": 3,
+      "score_time_sec": 21.5,
+      "time_sec": 22.61852,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 88,
+      "measure_number_guess": 8,
+      "beat_in_measure": 4,
+      "score_time_sec": 21.75,
+      "time_sec": 22.87952,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 89,
+      "measure_number_guess": 8,
+      "beat_in_measure": 5,
+      "score_time_sec": 22.0,
+      "time_sec": 23.12552,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 90,
+      "measure_number_guess": 8,
+      "beat_in_measure": 6,
+      "score_time_sec": 22.25,
+      "time_sec": 23.36952,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 91,
+      "measure_number_guess": 8,
+      "beat_in_measure": 7,
+      "score_time_sec": 22.5,
+      "time_sec": 23.63352,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 92,
+      "measure_number_guess": 8,
+      "beat_in_measure": 8,
+      "score_time_sec": 22.75,
+      "time_sec": 23.90852,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 93,
+      "measure_number_guess": 8,
+      "beat_in_measure": 9,
+      "score_time_sec": 23.0,
+      "time_sec": 24.16252,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 94,
+      "measure_number_guess": 8,
+      "beat_in_measure": 10,
+      "score_time_sec": 23.25,
+      "time_sec": 24.43152,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 95,
+      "measure_number_guess": 8,
+      "beat_in_measure": 11,
+      "score_time_sec": 23.5,
+      "time_sec": 24.70352,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 96,
+      "measure_number_guess": 8,
+      "beat_in_measure": 12,
+      "score_time_sec": 23.75,
+      "time_sec": 24.94652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 97,
+      "measure_number_guess": 9,
+      "beat_in_measure": 1,
+      "score_time_sec": 24.0,
+      "time_sec": 25.17952,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 98,
+      "measure_number_guess": 9,
+      "beat_in_measure": 2,
+      "score_time_sec": 24.25,
+      "time_sec": 25.41552,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 99,
+      "measure_number_guess": 9,
+      "beat_in_measure": 3,
+      "score_time_sec": 24.5,
+      "time_sec": 25.66052,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 100,
+      "measure_number_guess": 9,
+      "beat_in_measure": 4,
+      "score_time_sec": 24.75,
+      "time_sec": 25.9321,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 101,
+      "measure_number_guess": 9,
+      "beat_in_measure": 5,
+      "score_time_sec": 25.0,
+      "time_sec": 26.18352,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 102,
+      "measure_number_guess": 9,
+      "beat_in_measure": 6,
+      "score_time_sec": 25.25,
+      "time_sec": 26.40052,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 103,
+      "measure_number_guess": 9,
+      "beat_in_measure": 7,
+      "score_time_sec": 25.5,
+      "time_sec": 26.66352,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 104,
+      "measure_number_guess": 9,
+      "beat_in_measure": 8,
+      "score_time_sec": 25.75,
+      "time_sec": 26.88552,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 105,
+      "measure_number_guess": 9,
+      "beat_in_measure": 9,
+      "score_time_sec": 26.0,
+      "time_sec": 27.13752,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 106,
+      "measure_number_guess": 9,
+      "beat_in_measure": 10,
+      "score_time_sec": 26.25,
+      "time_sec": 27.39052,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 107,
+      "measure_number_guess": 9,
+      "beat_in_measure": 11,
+      "score_time_sec": 26.5,
+      "time_sec": 27.63352,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 108,
+      "measure_number_guess": 9,
+      "beat_in_measure": 12,
+      "score_time_sec": 26.75,
+      "time_sec": 27.88619,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 109,
+      "measure_number_guess": 10,
+      "beat_in_measure": 1,
+      "score_time_sec": 27.0,
+      "time_sec": 28.1227,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 110,
+      "measure_number_guess": 10,
+      "beat_in_measure": 2,
+      "score_time_sec": 27.25,
+      "time_sec": 28.35152,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 111,
+      "measure_number_guess": 10,
+      "beat_in_measure": 3,
+      "score_time_sec": 27.5,
+      "time_sec": 28.63252,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 112,
+      "measure_number_guess": 10,
+      "beat_in_measure": 4,
+      "score_time_sec": 27.75,
+      "time_sec": 28.87552,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 113,
+      "measure_number_guess": 10,
+      "beat_in_measure": 5,
+      "score_time_sec": 28.0,
+      "time_sec": 29.18152,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 114,
+      "measure_number_guess": 10,
+      "beat_in_measure": 6,
+      "score_time_sec": 28.25,
+      "time_sec": 29.44652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 115,
+      "measure_number_guess": 10,
+      "beat_in_measure": 7,
+      "score_time_sec": 28.5,
+      "time_sec": 29.67152,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 116,
+      "measure_number_guess": 10,
+      "beat_in_measure": 8,
+      "score_time_sec": 28.75,
+      "time_sec": 29.92652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 117,
+      "measure_number_guess": 10,
+      "beat_in_measure": 9,
+      "score_time_sec": 29.0,
+      "time_sec": 30.17152,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 118,
+      "measure_number_guess": 10,
+      "beat_in_measure": 10,
+      "score_time_sec": 29.25,
+      "time_sec": 30.42252,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 119,
+      "measure_number_guess": 10,
+      "beat_in_measure": 11,
+      "score_time_sec": 29.5,
+      "time_sec": 30.68752,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 120,
+      "measure_number_guess": 10,
+      "beat_in_measure": 12,
+      "score_time_sec": 29.75,
+      "time_sec": 30.90852,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 121,
+      "measure_number_guess": 11,
+      "beat_in_measure": 1,
+      "score_time_sec": 30.0,
+      "time_sec": 31.16952,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 122,
+      "measure_number_guess": 11,
+      "beat_in_measure": 2,
+      "score_time_sec": 30.25,
+      "time_sec": 31.43552,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 123,
+      "measure_number_guess": 11,
+      "beat_in_measure": 3,
+      "score_time_sec": 30.5,
+      "time_sec": 31.69952,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 124,
+      "measure_number_guess": 11,
+      "beat_in_measure": 4,
+      "score_time_sec": 30.75,
+      "time_sec": 31.95552,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 125,
+      "measure_number_guess": 11,
+      "beat_in_measure": 5,
+      "score_time_sec": 31.0,
+      "time_sec": 32.22152,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 126,
+      "measure_number_guess": 11,
+      "beat_in_measure": 6,
+      "score_time_sec": 31.25,
+      "time_sec": 32.48252,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 127,
+      "measure_number_guess": 11,
+      "beat_in_measure": 7,
+      "score_time_sec": 31.5,
+      "time_sec": 32.73352,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 128,
+      "measure_number_guess": 11,
+      "beat_in_measure": 8,
+      "score_time_sec": 31.75,
+      "time_sec": 32.98552,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 129,
+      "measure_number_guess": 11,
+      "beat_in_measure": 9,
+      "score_time_sec": 32.0,
+      "time_sec": 33.23152,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 130,
+      "measure_number_guess": 11,
+      "beat_in_measure": 10,
+      "score_time_sec": 32.25,
+      "time_sec": 33.50352,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 131,
+      "measure_number_guess": 11,
+      "beat_in_measure": 11,
+      "score_time_sec": 32.5,
+      "time_sec": 33.76452,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 132,
+      "measure_number_guess": 11,
+      "beat_in_measure": 12,
+      "score_time_sec": 32.75,
+      "time_sec": 34.02552,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 133,
+      "measure_number_guess": 12,
+      "beat_in_measure": 1,
+      "score_time_sec": 33.0,
+      "time_sec": 34.27652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 134,
+      "measure_number_guess": 12,
+      "beat_in_measure": 2,
+      "score_time_sec": 33.25,
+      "time_sec": 34.53752,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 135,
+      "measure_number_guess": 12,
+      "beat_in_measure": 3,
+      "score_time_sec": 33.5,
+      "time_sec": 34.78052,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 136,
+      "measure_number_guess": 12,
+      "beat_in_measure": 4,
+      "score_time_sec": 33.75,
+      "time_sec": 35.02752,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 137,
+      "measure_number_guess": 12,
+      "beat_in_measure": 5,
+      "score_time_sec": 34.0,
+      "time_sec": 35.27852,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 138,
+      "measure_number_guess": 12,
+      "beat_in_measure": 6,
+      "score_time_sec": 34.25,
+      "time_sec": 35.53252,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 139,
+      "measure_number_guess": 12,
+      "beat_in_measure": 7,
+      "score_time_sec": 34.5,
+      "time_sec": 35.77952,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 140,
+      "measure_number_guess": 12,
+      "beat_in_measure": 8,
+      "score_time_sec": 34.75,
+      "time_sec": 36.0046,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 141,
+      "measure_number_guess": 12,
+      "beat_in_measure": 9,
+      "score_time_sec": 35.0,
+      "time_sec": 36.14163,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 142,
+      "measure_number_guess": 12,
+      "beat_in_measure": 10,
+      "score_time_sec": 35.25,
+      "time_sec": 36.40852,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 143,
+      "measure_number_guess": 12,
+      "beat_in_measure": 11,
+      "score_time_sec": 35.5,
+      "time_sec": 36.87152,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 144,
+      "measure_number_guess": 12,
+      "beat_in_measure": 12,
+      "score_time_sec": 35.75,
+      "time_sec": 37.04814,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 145,
+      "measure_number_guess": 13,
+      "beat_in_measure": 1,
+      "score_time_sec": 36.0,
+      "time_sec": 37.31252,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 146,
+      "measure_number_guess": 13,
+      "beat_in_measure": 2,
+      "score_time_sec": 36.25,
+      "time_sec": 37.55752,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 147,
+      "measure_number_guess": 13,
+      "beat_in_measure": 3,
+      "score_time_sec": 36.5,
+      "time_sec": 37.74052,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 148,
+      "measure_number_guess": 13,
+      "beat_in_measure": 4,
+      "score_time_sec": 36.75,
+      "time_sec": 38.00752,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 149,
+      "measure_number_guess": 13,
+      "beat_in_measure": 5,
+      "score_time_sec": 37.0,
+      "time_sec": 38.22252,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 150,
+      "measure_number_guess": 13,
+      "beat_in_measure": 6,
+      "score_time_sec": 37.25,
+      "time_sec": 38.49252,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 151,
+      "measure_number_guess": 13,
+      "beat_in_measure": 7,
+      "score_time_sec": 37.5,
+      "time_sec": 38.73077,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 152,
+      "measure_number_guess": 13,
+      "beat_in_measure": 8,
+      "score_time_sec": 37.75,
+      "time_sec": 38.97852,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 153,
+      "measure_number_guess": 13,
+      "beat_in_measure": 9,
+      "score_time_sec": 38.0,
+      "time_sec": 39.22952,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 154,
+      "measure_number_guess": 13,
+      "beat_in_measure": 10,
+      "score_time_sec": 38.25,
+      "time_sec": 39.47952,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 155,
+      "measure_number_guess": 13,
+      "beat_in_measure": 11,
+      "score_time_sec": 38.5,
+      "time_sec": 39.73752,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 156,
+      "measure_number_guess": 13,
+      "beat_in_measure": 12,
+      "score_time_sec": 38.75,
+      "time_sec": 39.99252,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 157,
+      "measure_number_guess": 14,
+      "beat_in_measure": 1,
+      "score_time_sec": 39.0,
+      "time_sec": 40.20427,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 158,
+      "measure_number_guess": 14,
+      "beat_in_measure": 2,
+      "score_time_sec": 39.25,
+      "time_sec": 40.43352,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 159,
+      "measure_number_guess": 14,
+      "beat_in_measure": 3,
+      "score_time_sec": 39.5,
+      "time_sec": 40.80552,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 160,
+      "measure_number_guess": 14,
+      "beat_in_measure": 4,
+      "score_time_sec": 39.75,
+      "time_sec": 41.05952,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 161,
+      "measure_number_guess": 14,
+      "beat_in_measure": 5,
+      "score_time_sec": 40.0,
+      "time_sec": 41.30552,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 162,
+      "measure_number_guess": 14,
+      "beat_in_measure": 6,
+      "score_time_sec": 40.25,
+      "time_sec": 41.55352,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 163,
+      "measure_number_guess": 14,
+      "beat_in_measure": 7,
+      "score_time_sec": 40.5,
+      "time_sec": 41.79852,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 164,
+      "measure_number_guess": 14,
+      "beat_in_measure": 8,
+      "score_time_sec": 40.75,
+      "time_sec": 42.08252,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 165,
+      "measure_number_guess": 14,
+      "beat_in_measure": 9,
+      "score_time_sec": 41.0,
+      "time_sec": 42.32252,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 166,
+      "measure_number_guess": 14,
+      "beat_in_measure": 10,
+      "score_time_sec": 41.25,
+      "time_sec": 42.56452,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 167,
+      "measure_number_guess": 14,
+      "beat_in_measure": 11,
+      "score_time_sec": 41.5,
+      "time_sec": 42.83052,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 168,
+      "measure_number_guess": 14,
+      "beat_in_measure": 12,
+      "score_time_sec": 41.75,
+      "time_sec": 43.07652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 169,
+      "measure_number_guess": 15,
+      "beat_in_measure": 1,
+      "score_time_sec": 42.0,
+      "time_sec": 43.34852,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 170,
+      "measure_number_guess": 15,
+      "beat_in_measure": 2,
+      "score_time_sec": 42.25,
+      "time_sec": 43.60352,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 171,
+      "measure_number_guess": 15,
+      "beat_in_measure": 3,
+      "score_time_sec": 42.5,
+      "time_sec": 43.85052,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 172,
+      "measure_number_guess": 15,
+      "beat_in_measure": 4,
+      "score_time_sec": 42.75,
+      "time_sec": 44.11052,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 173,
+      "measure_number_guess": 15,
+      "beat_in_measure": 5,
+      "score_time_sec": 43.0,
+      "time_sec": 44.35652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 174,
+      "measure_number_guess": 15,
+      "beat_in_measure": 6,
+      "score_time_sec": 43.25,
+      "time_sec": 44.59852,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 175,
+      "measure_number_guess": 15,
+      "beat_in_measure": 7,
+      "score_time_sec": 43.5,
+      "time_sec": 44.87052,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 176,
+      "measure_number_guess": 15,
+      "beat_in_measure": 8,
+      "score_time_sec": 43.75,
+      "time_sec": 45.14452,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 177,
+      "measure_number_guess": 15,
+      "beat_in_measure": 9,
+      "score_time_sec": 44.0,
+      "time_sec": 45.38052,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 178,
+      "measure_number_guess": 15,
+      "beat_in_measure": 10,
+      "score_time_sec": 44.25,
+      "time_sec": 45.63052,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 179,
+      "measure_number_guess": 15,
+      "beat_in_measure": 11,
+      "score_time_sec": 44.5,
+      "time_sec": 45.92852,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 180,
+      "measure_number_guess": 15,
+      "beat_in_measure": 12,
+      "score_time_sec": 44.75,
+      "time_sec": 46.17152,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 181,
+      "measure_number_guess": 16,
+      "beat_in_measure": 1,
+      "score_time_sec": 45.0,
+      "time_sec": 46.44452,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 182,
+      "measure_number_guess": 16,
+      "beat_in_measure": 2,
+      "score_time_sec": 45.25,
+      "time_sec": 46.70552,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 183,
+      "measure_number_guess": 16,
+      "beat_in_measure": 3,
+      "score_time_sec": 45.5,
+      "time_sec": 46.95752,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 184,
+      "measure_number_guess": 16,
+      "beat_in_measure": 4,
+      "score_time_sec": 45.75,
+      "time_sec": 47.22352,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 185,
+      "measure_number_guess": 16,
+      "beat_in_measure": 5,
+      "score_time_sec": 46.0,
+      "time_sec": 47.46452,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 186,
+      "measure_number_guess": 16,
+      "beat_in_measure": 6,
+      "score_time_sec": 46.25,
+      "time_sec": 47.71852,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 187,
+      "measure_number_guess": 16,
+      "beat_in_measure": 7,
+      "score_time_sec": 46.5,
+      "time_sec": 47.98752,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 188,
+      "measure_number_guess": 16,
+      "beat_in_measure": 8,
+      "score_time_sec": 46.75,
+      "time_sec": 48.24152,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 189,
+      "measure_number_guess": 16,
+      "beat_in_measure": 9,
+      "score_time_sec": 47.0,
+      "time_sec": 48.49852,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 190,
+      "measure_number_guess": 16,
+      "beat_in_measure": 10,
+      "score_time_sec": 47.25,
+      "time_sec": 48.74852,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 191,
+      "measure_number_guess": 16,
+      "beat_in_measure": 11,
+      "score_time_sec": 47.5,
+      "time_sec": 49.00452,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 192,
+      "measure_number_guess": 16,
+      "beat_in_measure": 12,
+      "score_time_sec": 47.75,
+      "time_sec": 49.25752,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 193,
+      "measure_number_guess": 17,
+      "beat_in_measure": 1,
+      "score_time_sec": 48.0,
+      "time_sec": 49.50652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 194,
+      "measure_number_guess": 17,
+      "beat_in_measure": 2,
+      "score_time_sec": 48.25,
+      "time_sec": 49.82752,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 195,
+      "measure_number_guess": 17,
+      "beat_in_measure": 3,
+      "score_time_sec": 48.5,
+      "time_sec": 50.08052,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 196,
+      "measure_number_guess": 17,
+      "beat_in_measure": 4,
+      "score_time_sec": 48.75,
+      "time_sec": 50.33352,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 197,
+      "measure_number_guess": 17,
+      "beat_in_measure": 5,
+      "score_time_sec": 49.0,
+      "time_sec": 50.59452,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 198,
+      "measure_number_guess": 17,
+      "beat_in_measure": 6,
+      "score_time_sec": 49.25,
+      "time_sec": 50.83852,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 199,
+      "measure_number_guess": 17,
+      "beat_in_measure": 7,
+      "score_time_sec": 49.5,
+      "time_sec": 51.10652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 200,
+      "measure_number_guess": 17,
+      "beat_in_measure": 8,
+      "score_time_sec": 49.75,
+      "time_sec": 51.35552,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 201,
+      "measure_number_guess": 17,
+      "beat_in_measure": 9,
+      "score_time_sec": 50.0,
+      "time_sec": 51.64952,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 202,
+      "measure_number_guess": 17,
+      "beat_in_measure": 10,
+      "score_time_sec": 50.25,
+      "time_sec": 51.88652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 203,
+      "measure_number_guess": 17,
+      "beat_in_measure": 11,
+      "score_time_sec": 50.5,
+      "time_sec": 52.13652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 204,
+      "measure_number_guess": 17,
+      "beat_in_measure": 12,
+      "score_time_sec": 50.75,
+      "time_sec": 52.41652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 205,
+      "measure_number_guess": 18,
+      "beat_in_measure": 1,
+      "score_time_sec": 51.0,
+      "time_sec": 52.69652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 206,
+      "measure_number_guess": 18,
+      "beat_in_measure": 2,
+      "score_time_sec": 51.25,
+      "time_sec": 53.02552,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 207,
+      "measure_number_guess": 18,
+      "beat_in_measure": 3,
+      "score_time_sec": 51.5,
+      "time_sec": 53.32952,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 208,
+      "measure_number_guess": 18,
+      "beat_in_measure": 4,
+      "score_time_sec": 51.75,
+      "time_sec": 53.58352,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 209,
+      "measure_number_guess": 18,
+      "beat_in_measure": 5,
+      "score_time_sec": 52.0,
+      "time_sec": 53.88152,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 210,
+      "measure_number_guess": 18,
+      "beat_in_measure": 6,
+      "score_time_sec": 52.25,
+      "time_sec": 54.17152,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 211,
+      "measure_number_guess": 18,
+      "beat_in_measure": 7,
+      "score_time_sec": 52.5,
+      "time_sec": 54.55652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 212,
+      "measure_number_guess": 18,
+      "beat_in_measure": 8,
+      "score_time_sec": 52.75,
+      "time_sec": 54.89052,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 213,
+      "measure_number_guess": 18,
+      "beat_in_measure": 9,
+      "score_time_sec": 53.0,
+      "time_sec": 55.26652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 214,
+      "measure_number_guess": 18,
+      "beat_in_measure": 10,
+      "score_time_sec": 53.25,
+      "time_sec": 55.70952,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 215,
+      "measure_number_guess": 18,
+      "beat_in_measure": 11,
+      "score_time_sec": 53.5,
+      "time_sec": 56.20652,
+      "inside_warping_range": true
+    },
+    {
+      "beat_index": 216,
+      "measure_number_guess": 18,
+      "beat_in_measure": 12,
+      "score_time_sec": 53.75,
+      "time_sec": 56.68052,
+      "inside_warping_range": true
+    }
+  ]
+}

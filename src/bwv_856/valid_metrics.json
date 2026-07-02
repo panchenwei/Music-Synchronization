@@ -1,0 +1,21 @@
+{
+  "asap_key": "Bach/Prelude/bwv_856/LuoJ01M.mid",
+  "predicted_beats_csv": "src\\bwv_856\\predicted_beats.csv",
+  "asap_annotations_json": "src\\bwv_856\\asap_annotations.json",
+  "gt_source": "dataset\\asap-dataset\\Bach\\Prelude\\bwv_856\\LuoJ01M_annotations.txt",
+  "gt_source_type": "performance_annotations_txt",
+  "match_rule": "compound_12_8_take_1_4_7_10",
+  "metrics": {
+    "count": 72,
+    "mae_sec": 0.02944,
+    "rmse_sec": 0.0836,
+    "median_abs_error_sec": 0.01357,
+    "max_abs_error_sec": 0.65608,
+    "acc_10ms": 0.38889,
+    "acc_20ms": 0.66667,
+    "acc_50ms": 0.91667,
+    "acc_100ms": 0.95833,
+    "acc_200ms": 0.98611,
+    "acc_500ms": 0.98611
+  }
+}

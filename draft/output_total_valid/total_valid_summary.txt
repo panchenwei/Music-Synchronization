@@ -1,0 +1,15 @@
+count: 27432.000000
+mae_sec: 0.208516
+rmse_sec: 1.453616
+median_abs_error_sec: 0.044970
+p90_abs_error_sec: 0.315423
+p95_abs_error_sec: 0.534219
+max_abs_error_sec: 40.406550
+mean_signed_error_sec: -0.025341
+std_error_sec: 1.453422
+acc_10ms: 0.191528
+acc_20ms: 0.324730
+acc_50ms: 0.523877
+acc_100ms: 0.694991
+acc_200ms: 0.838109
+acc_500ms: 0.946267

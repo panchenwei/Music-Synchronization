@@ -1,0 +1,30 @@
+{
+  "score_wav": "src\\bwv_856\\score_synth.wav",
+  "performance_wav": "src\\bwv_856\\performance.wav",
+  "fs": 22050,
+  "feature_rate": 1000,
+  "score_duration_sec": 57.0,
+  "performance_duration_sec": 58.05102,
+  "score_leading_silence_sec": 0.0,
+  "performance_leading_silence_sec": 0.37152,
+  "score_start_sample": 0,
+  "performance_start_sample": 8192,
+  "optimal_chroma_shift_bins": 0,
+  "warping_path_points": 52538,
+  "boundary_localization": {
+    "method": "chroma_cens_subsequence_dtw",
+    "coarse_hop_length": 2048,
+    "margin_sec": 1.5,
+    "query_score_start_frame": 0,
+    "query_score_end_frame": 613,
+    "matched_performance_start_frame": 21,
+    "matched_performance_end_frame": 598,
+    "performance_start_sample": 8192,
+    "performance_end_sample": 1261568,
+    "performance_start_sec": 0.37152,
+    "performance_end_sec": 57.21397,
+    "original_performance_duration_sec": 58.05102,
+    "cropped_performance_duration_sec": 56.84245,
+    "normalized_subsequence_boundary_cost": 0.25688
+  }
+}
