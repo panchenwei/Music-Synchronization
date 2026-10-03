@@ -1,0 +1,26 @@
+{
+  "new_seed_replication_passed": true,
+  "new_seed_positive_cells": 4,
+  "new_seed_deltas": {
+    "macro_f1_tol1": 0.008143255207956973,
+    "macro_f1_tol0": 0.004178127787906383,
+    "macro_precision_tol1": 0.008772229835941864,
+    "macro_recall_tol1": 0.006914070049734045,
+    "raw_ap": 0.006812002235806663,
+    "interval_f1_tol0": 0.022104602486803127,
+    "interval_precision_tol0": 0.020053665654945083,
+    "interval_recall_tol0": 0.024954229661174526,
+    "interval_f1_tol1": 0.01872822014488411,
+    "interval_precision_tol1": 0.021764794617072328,
+    "interval_recall_tol1": 0.016300680704070175
+  },
+  "ensemble_positive_opus": 3,
+  "ensemble_deltas": {
+    "f1_tol1": 0.020017614693332724,
+    "f1_tol0": 0.015530138301087229,
+    "raw_ap": 0.009336467818257902,
+    "f1": 0.03562914857003546
+  },
+  "promote": true,
+  "independent_test": false
+}

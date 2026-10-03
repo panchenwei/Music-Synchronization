@@ -1,0 +1,20 @@
+piece_id,reason,origin_qb,mode,length_error,rows,covered_rows,phase_equal,bar_transitions_equal,bar_ordinal_constant,bar_ordinal_offsets,all_rows_covered,passed
+chopin_op24_no1,,0,dcml_next_graph,0.0,289,289,True,True,True,[np.float64(1.0)],True,True
+chopin_op24_no2,,0,dcml_next_graph,0.0,360,360,True,True,True,[np.float64(1.0)],True,True
+chopin_op24_no3,,0,dcml_next_graph,2.0,236,236,True,True,True,[np.float64(1.0)],True,True
+chopin_op24_no4,,0,dcml_next_graph,0.0,559,559,True,True,True,[np.float64(1.0)],True,True
+chopin_op41_no1,source_geometry_gate_failed,0,dcml_next_graph,0.0,417,416,True,True,True,[np.float64(1.0)],False,False
+chopin_op41_no2,,0,dcml_next_graph,1.0,203,203,True,True,True,[np.float64(1.0)],True,True
+chopin_op41_no3,,0,dcml_next_graph,0.0,234,234,True,True,True,[np.float64(1.0)],True,True
+chopin_op41_no4,,0,dcml_next_graph,0.0,247,247,True,True,True,[np.float64(1.0)],True,True
+chopin_op50_no1,,0,dcml_next_graph,0.0,312,312,True,True,True,[np.float64(1.0)],True,True
+chopin_op50_no3,source_geometry_gate_failed,0,dcml_next_graph,0.0,625,625,True,False,False,"[np.float64(-1.0), np.float64(0.0), np.float64(1.0)]",True,False
+chopin_op56_no1,,0,dcml_next_graph,0.0,612,612,True,True,True,[np.float64(1.0)],True,True
+chopin_op56_no2,,2,dcml_next_graph,2.0,274,274,True,True,True,[np.float64(1.0)],True,True
+chopin_op56_no3,,0,dcml_next_graph,0.0,661,661,True,True,True,[np.float64(1.0)],True,True
+chopin_op59_no1,,0,dcml_next_graph,0.0,426,426,True,True,True,[np.float64(1.0)],True,True
+chopin_op59_no2,,0,dcml_next_graph,0.0,333,333,True,True,True,[np.float64(1.0)],True,True
+chopin_op59_no3,,0,dcml_next_graph,0.0,463,463,True,True,True,[np.float64(1.0)],True,True
+chopin_op63_no1,,0,dcml_next_graph,0.0,306,306,True,True,True,[np.float64(1.0)],True,True
+chopin_op63_no2,,0,dcml_next_graph,0.0,168,168,True,True,True,[np.float64(1.0)],True,True
+chopin_op63_no3,,0,dcml_next_graph,0.0,229,229,True,True,True,[np.float64(1.0)],True,True

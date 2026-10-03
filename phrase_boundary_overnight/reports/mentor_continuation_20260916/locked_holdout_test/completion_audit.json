@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "new_training": 0,
+  "retuned_parameters": false,
+  "ensemble_cells": 8,
+  "component_gpu_replays": 16,
+  "primary_prespecified": true,
+  "all_sources_checkpoints_unchanged": true,
+  "probability_and_event_counts_replayed": true,
+  "strict_blind_test": false,
+  "seconds": 56.03100000000268
+}

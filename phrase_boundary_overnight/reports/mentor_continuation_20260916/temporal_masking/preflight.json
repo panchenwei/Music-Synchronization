@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "same_base_sampling": true,
+  "equal_mask_counts": true,
+  "unmasked_inputs_labels_padding_unchanged": true,
+  "input_arrays_unchanged": true,
+  "independent_rng_exact_resume": true,
+  "gpu_full_optimizer_sampler_replay_exact": true,
+  "tiny_fit_exact": true,
+  "params": 6005
+}

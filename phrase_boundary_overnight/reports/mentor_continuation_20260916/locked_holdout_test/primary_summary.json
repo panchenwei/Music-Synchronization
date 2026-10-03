@@ -1,0 +1,31 @@
+{
+  "primary": "B_fold0_B10",
+  "works": 17,
+  "opus_groups": 6,
+  "performances": 804,
+  "scored_starts_per_work_total": 198,
+  "macro_f1": 0.6370198984051921,
+  "macro_precision": 0.6554351425635395,
+  "macro_recall": 0.653000141369998,
+  "exact_f1": 0.5584925144728509,
+  "cluster_bootstrap95": [
+    0.5316365325924458,
+    0.7405877816412204
+  ],
+  "event_counts_across_performances": {
+    "tp_tol1": 6292,
+    "fp_tol1": 3267,
+    "fn_tol1": 3100,
+    "tp_tol0": 5534,
+    "fp_tol0": 4025,
+    "fn_tol0": 3858
+  },
+  "micro_f1": 0.6640282834678909,
+  "maxmatch_macro_f1": 0.6370198984051921,
+  "beat_accuracy": 0.9676271480487048,
+  "all_negative_accuracy": 0.9609494449539646,
+  "strict_blind_test": false,
+  "not_training_or_dev_for_current_model": true,
+  "historical_selection_bias_possible": true,
+  "exclusions_before_predictions": true
+}

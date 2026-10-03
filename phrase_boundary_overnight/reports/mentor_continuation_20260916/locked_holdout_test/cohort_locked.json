@@ -1,0 +1,28 @@
+{
+  "admitted": [
+    "chopin_op24_no1",
+    "chopin_op24_no2",
+    "chopin_op24_no3",
+    "chopin_op24_no4",
+    "chopin_op41_no2",
+    "chopin_op41_no3",
+    "chopin_op41_no4",
+    "chopin_op50_no1",
+    "chopin_op56_no1",
+    "chopin_op56_no2",
+    "chopin_op56_no3",
+    "chopin_op59_no1",
+    "chopin_op59_no2",
+    "chopin_op59_no3",
+    "chopin_op63_no1",
+    "chopin_op63_no2",
+    "chopin_op63_no3"
+  ],
+  "excluded": [
+    "chopin_op41_no1",
+    "chopin_op50_no3"
+  ],
+  "historical_holdout_not_blind": true,
+  "primary": "B_fold0_B10",
+  "features_derived_without_harmonies": true
+}

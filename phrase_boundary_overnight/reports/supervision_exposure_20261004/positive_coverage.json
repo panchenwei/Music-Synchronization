@@ -1,0 +1,379 @@
+{
+  "status": "reproduced",
+  "works": 24,
+  "holdouts_read": false,
+  "zero_exposure_positions": 0,
+  "optimizer_steps": 0,
+  "rows": [
+    {
+      "piece": "chopin_op06_no1",
+      "positions": 337,
+      "scored": 289.0,
+      "positive_labels": 7.0,
+      "windows": 10,
+      "whole_density": 0.02422145328719723,
+      "expected_sampled_density": 0.024911032028469754,
+      "density_ratio": 1.0284697508896798,
+      "observed_density_min": 0.024427480916030534,
+      "observed_density_max": 0.025214290183319776,
+      "folds_in_train": [
+        1
+      ]
+    },
+    {
+      "piece": "chopin_op06_no2",
+      "positions": 288,
+      "scored": 259.0,
+      "positive_labels": 10.0,
+      "windows": 8,
+      "whole_density": 0.03861003861003861,
+      "expected_sampled_density": 0.037578288100208766,
+      "density_ratio": 0.9732776617954071,
+      "observed_density_min": 0.037101939694241345,
+      "observed_density_max": 0.03856157412642768,
+      "folds_in_train": [
+        1
+      ]
+    },
+    {
+      "piece": "chopin_op06_no3",
+      "positions": 294,
+      "scored": 262.0,
+      "positive_labels": 12.0,
+      "windows": 9,
+      "whole_density": 0.04580152671755725,
+      "expected_sampled_density": 0.04624277456647399,
+      "density_ratio": 1.0096339113680155,
+      "observed_density_min": 0.04512868727229992,
+      "observed_density_max": 0.047231900890437474,
+      "folds_in_train": [
+        1
+      ]
+    },
+    {
+      "piece": "chopin_op06_no4",
+      "positions": 121,
+      "scored": 96.0,
+      "positive_labels": 6.0,
+      "windows": 3,
+      "whole_density": 0.0625,
+      "expected_sampled_density": 0.05988023952095807,
+      "density_ratio": 0.9580838323353291,
+      "observed_density_min": 0.05887991236478159,
+      "observed_density_max": 0.060587761674718195,
+      "folds_in_train": [
+        1
+      ]
+    },
+    {
+      "piece": "chopin_op07_no1",
+      "positions": 312,
+      "scored": 276.0,
+      "positive_labels": 9.0,
+      "windows": 9,
+      "whole_density": 0.03260869565217391,
+      "expected_sampled_density": 0.03591682419659735,
+      "density_ratio": 1.1014492753623188,
+      "observed_density_min": 0.0348234643819526,
+      "observed_density_max": 0.0361947469570788,
+      "folds_in_train": [
+        0
+      ]
+    },
+    {
+      "piece": "chopin_op07_no2",
+      "positions": 361,
+      "scored": 336.0,
+      "positive_labels": 14.0,
+      "windows": 11,
+      "whole_density": 0.041666666666666664,
+      "expected_sampled_density": 0.04216867469879517,
+      "density_ratio": 1.0120481927710843,
+      "observed_density_min": 0.041830532713621735,
+      "observed_density_max": 0.0428241392911478,
+      "folds_in_train": [
+        0
+      ]
+    },
+    {
+      "piece": "chopin_op07_no3",
+      "positions": 315,
+      "scored": 276.0,
+      "positive_labels": 11.0,
+      "windows": 9,
+      "whole_density": 0.03985507246376811,
+      "expected_sampled_density": 0.04182509505703422,
+      "density_ratio": 1.049429657794677,
+      "observed_density_min": 0.04077613669273096,
+      "observed_density_max": 0.04206791687785099,
+      "folds_in_train": [
+        0
+      ]
+    },
+    {
+      "piece": "chopin_op17_no1",
+      "positions": 301,
+      "scored": 289.0,
+      "positive_labels": 12.0,
+      "windows": 9,
+      "whole_density": 0.04152249134948097,
+      "expected_sampled_density": 0.04078014184397163,
+      "density_ratio": 0.9821217494089834,
+      "observed_density_min": 0.040184083511056234,
+      "observed_density_max": 0.041984304932735424,
+      "folds_in_train": [
+        0,
+        1
+      ]
+    },
+    {
+      "piece": "chopin_op17_no2",
+      "positions": 205,
+      "scored": 181.0,
+      "positive_labels": 7.0,
+      "windows": 6,
+      "whole_density": 0.03867403314917127,
+      "expected_sampled_density": 0.039999999999999994,
+      "density_ratio": 1.0342857142857143,
+      "observed_density_min": 0.038923594425756845,
+      "observed_density_max": 0.04086598452707761,
+      "folds_in_train": [
+        0,
+        1
+      ]
+    },
+    {
+      "piece": "chopin_op17_no3",
+      "positions": 505,
+      "scored": 457.0,
+      "positive_labels": 17.0,
+      "windows": 15,
+      "whole_density": 0.037199124726477024,
+      "expected_sampled_density": 0.03707865168539327,
+      "density_ratio": 0.9967614011896896,
+      "observed_density_min": 0.035418019187766,
+      "observed_density_max": 0.03780132614488443,
+      "folds_in_train": [
+        0,
+        1
+      ]
+    },
+    {
+      "piece": "chopin_op17_no4",
+      "positions": 395,
+      "scored": 384.0,
+      "positive_labels": 15.0,
+      "windows": 12,
+      "whole_density": 0.0390625,
+      "expected_sampled_density": 0.03830911492734478,
+      "density_ratio": 0.9807133421400265,
+      "observed_density_min": 0.03781044659761666,
+      "observed_density_max": 0.03921239581585277,
+      "folds_in_train": [
+        0,
+        1
+      ]
+    },
+    {
+      "piece": "chopin_op30_no2",
+      "positions": 193,
+      "scored": 166.0,
+      "positive_labels": 6.0,
+      "windows": 6,
+      "whole_density": 0.03614457831325301,
+      "expected_sampled_density": 0.03892215568862275,
+      "density_ratio": 1.0768463073852295,
+      "observed_density_min": 0.03776812738518226,
+      "observed_density_max": 0.03943961224354293,
+      "folds_in_train": [
+        1
+      ]
+    },
+    {
+      "piece": "chopin_op30_no3",
+      "positions": 333,
+      "scored": 304.0,
+      "positive_labels": 15.0,
+      "windows": 10,
+      "whole_density": 0.049342105263157895,
+      "expected_sampled_density": 0.05033557046979866,
+      "density_ratio": 1.0201342281879195,
+      "observed_density_min": 0.04939911448450348,
+      "observed_density_max": 0.051261421757370265,
+      "folds_in_train": [
+        1
+      ]
+    },
+    {
+      "piece": "chopin_op30_no4",
+      "positions": 417,
+      "scored": 348.0,
+      "positive_labels": 13.0,
+      "windows": 13,
+      "whole_density": 0.03735632183908046,
+      "expected_sampled_density": 0.03759398496240603,
+      "density_ratio": 1.0063620589936382,
+      "observed_density_min": 0.036504036504036504,
+      "observed_density_max": 0.03762835841890561,
+      "folds_in_train": [
+        1
+      ]
+    },
+    {
+      "piece": "chopin_op33_no1",
+      "positions": 145,
+      "scored": 114.0,
+      "positive_labels": 7.0,
+      "windows": 4,
+      "whole_density": 0.06140350877192982,
+      "expected_sampled_density": 0.0660377358490566,
+      "density_ratio": 1.0754716981132075,
+      "observed_density_min": 0.06543837357052097,
+      "observed_density_max": 0.0665232093452198,
+      "folds_in_train": [
+        0,
+        1
+      ]
+    },
+    {
+      "piece": "chopin_op33_no2",
+      "positions": 430,
+      "scored": 385.0,
+      "positive_labels": 16.0,
+      "windows": 13,
+      "whole_density": 0.04155844155844156,
+      "expected_sampled_density": 0.04095112285336857,
+      "density_ratio": 0.9853863936591812,
+      "observed_density_min": 0.039825358428225856,
+      "observed_density_max": 0.04160660463897261,
+      "folds_in_train": [
+        0,
+        1
+      ]
+    },
+    {
+      "piece": "chopin_op33_no4",
+      "positions": 673,
+      "scored": 612.0,
+      "positive_labels": 20.0,
+      "windows": 21,
+      "whole_density": 0.032679738562091505,
+      "expected_sampled_density": 0.034252297410192145,
+      "density_ratio": 1.0481203007518796,
+      "observed_density_min": 0.03306960069229818,
+      "observed_density_max": 0.034173218597164615,
+      "folds_in_train": [
+        0,
+        1
+      ]
+    },
+    {
+      "piece": "chopin_op67_no1",
+      "positions": 180,
+      "scored": 156.0,
+      "positive_labels": 7.0,
+      "windows": 5,
+      "whole_density": 0.04487179487179487,
+      "expected_sampled_density": 0.044368600682593864,
+      "density_ratio": 0.9887859580692346,
+      "observed_density_min": 0.044211887824093125,
+      "observed_density_max": 0.04467291967291967,
+      "folds_in_train": [
+        0
+      ]
+    },
+    {
+      "piece": "chopin_op67_no2",
+      "positions": 217,
+      "scored": 192.0,
+      "positive_labels": 7.0,
+      "windows": 6,
+      "whole_density": 0.036458333333333336,
+      "expected_sampled_density": 0.03342618384401114,
+      "density_ratio": 0.9168324711500196,
+      "observed_density_min": 0.032236920510070315,
+      "observed_density_max": 0.03380122112418959,
+      "folds_in_train": [
+        0
+      ]
+    },
+    {
+      "piece": "chopin_op67_no3",
+      "positions": 169,
+      "scored": 145.0,
+      "positive_labels": 6.0,
+      "windows": 5,
+      "whole_density": 0.041379310344827586,
+      "expected_sampled_density": 0.04255319148936171,
+      "density_ratio": 1.0283687943262414,
+      "observed_density_min": 0.041289083598391646,
+      "observed_density_max": 0.04287826515524889,
+      "folds_in_train": [
+        0
+      ]
+    },
+    {
+      "piece": "chopin_op67_no4",
+      "positions": 337,
+      "scored": 288.0,
+      "positive_labels": 9.0,
+      "windows": 10,
+      "whole_density": 0.03125,
+      "expected_sampled_density": 0.03035714285714286,
+      "density_ratio": 0.9714285714285715,
+      "observed_density_min": 0.027760208025862675,
+      "observed_density_max": 0.03149656809288601,
+      "folds_in_train": [
+        0
+      ]
+    },
+    {
+      "piece": "chopin_op68_no1",
+      "positions": 252,
+      "scored": 238.0,
+      "positive_labels": 19.0,
+      "windows": 7,
+      "whole_density": 0.07983193277310924,
+      "expected_sampled_density": 0.08101851851851855,
+      "density_ratio": 1.014863547758285,
+      "observed_density_min": 0.0808641975308642,
+      "observed_density_max": 0.08205161207284896,
+      "folds_in_train": [
+        0,
+        1
+      ]
+    },
+    {
+      "piece": "chopin_op68_no2",
+      "positions": 253,
+      "scored": 229.0,
+      "positive_labels": 15.0,
+      "windows": 7,
+      "whole_density": 0.06550218340611354,
+      "expected_sampled_density": 0.06367924528301888,
+      "density_ratio": 0.972169811320755,
+      "observed_density_min": 0.06208338040899333,
+      "observed_density_max": 0.06487537564079901,
+      "folds_in_train": [
+        0,
+        1
+      ]
+    },
+    {
+      "piece": "chopin_op68_no3",
+      "positions": 180,
+      "scored": 156.0,
+      "positive_labels": 7.0,
+      "windows": 5,
+      "whole_density": 0.04487179487179487,
+      "expected_sampled_density": 0.04778156996587031,
+      "density_ratio": 1.0648464163822526,
+      "observed_density_min": 0.046329629049929565,
+      "observed_density_max": 0.04892927495710745,
+      "folds_in_train": [
+        0,
+        1
+      ]
+    }
+  ]
+}

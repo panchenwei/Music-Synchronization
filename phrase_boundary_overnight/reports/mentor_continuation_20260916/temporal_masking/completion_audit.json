@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "new_training": 8,
+  "reference_reused": 4,
+  "decode_cells": 24,
+  "checkpoint_gpu_replays": true,
+  "sampling_labels_exposure_norm_equal": true,
+  "all_sources_unchanged": true,
+  "frozen_external_predictions_not_read": true,
+  "seconds": 381.25
+}

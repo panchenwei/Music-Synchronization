@@ -1,0 +1,65 @@
+{
+  "replication_candidate": "B",
+  "promote": false,
+  "replication_required": true,
+  "comparisons": [
+    {
+      "arm": "D",
+      "control": "U",
+      "positive_cells": 4,
+      "passed": true,
+      "deltas": {
+        "macro_f1_tol1": 0.029380318944874334,
+        "macro_f1_tol0": 0.03853976437364323,
+        "macro_precision_tol1": 0.02767823966795646,
+        "macro_recall_tol1": 0.026150720232830632,
+        "raw_ap": 0.0250591446744258,
+        "interval_f1_tol0": 0.065477621651231,
+        "interval_precision_tol0": 0.06477699245226028,
+        "interval_recall_tol0": 0.06516993336975294,
+        "interval_f1_tol1": 0.06312994279879162,
+        "interval_precision_tol1": 0.07145732097579681,
+        "interval_recall_tol1": 0.05402078151905684
+      }
+    },
+    {
+      "arm": "B",
+      "control": "U",
+      "positive_cells": 4,
+      "passed": true,
+      "deltas": {
+        "macro_f1_tol1": 0.031883652898654774,
+        "macro_f1_tol0": 0.02481263142785403,
+        "macro_precision_tol1": 0.019176482146633783,
+        "macro_recall_tol1": 0.03586047369414477,
+        "raw_ap": 0.014060559665261763,
+        "interval_f1_tol0": 0.04947471409185393,
+        "interval_precision_tol0": 0.044313385151384194,
+        "interval_recall_tol0": 0.05301309462941179,
+        "interval_f1_tol1": 0.054613724744932826,
+        "interval_precision_tol1": 0.05275632608163271,
+        "interval_recall_tol1": 0.05422271063298295
+      }
+    },
+    {
+      "arm": "B",
+      "control": "D",
+      "positive_cells": 2,
+      "passed": false,
+      "deltas": {
+        "macro_f1_tol1": 0.00250333395378044,
+        "macro_f1_tol0": -0.0137271329457892,
+        "macro_precision_tol1": -0.008501757521322678,
+        "macro_recall_tol1": 0.009709753461314141,
+        "raw_ap": -0.010998585009164036,
+        "interval_f1_tol0": -0.01600290755937707,
+        "interval_precision_tol0": -0.020463607300876083,
+        "interval_recall_tol0": -0.012156838740341139,
+        "interval_f1_tol1": -0.008516218053858798,
+        "interval_precision_tol1": -0.018700994894164102,
+        "interval_recall_tol1": 0.00020192911392610813
+      }
+    }
+  ],
+  "independent_test": false
+}

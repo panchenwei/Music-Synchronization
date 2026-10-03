@@ -1,0 +1,120 @@
+{
+  "status": {
+    "code": "implemented",
+    "local_results": "reproduced",
+    "generalization": "preliminary"
+  },
+  "task": "DCML new phrase-start event detection",
+  "grid": "one row per quarter-note duration (quarterbeat)",
+  "input_groups": {
+    "performance_curves": 9,
+    "score_cues": 16,
+    "tempo_hierarchy": 9,
+    "ordered_motif_recurrence": 24
+  },
+  "model": {
+    "input": 58,
+    "projection": 32,
+    "bidirectional_gru_hidden_per_direction": 14,
+    "gru_layers": 1,
+    "dropout": 0.2,
+    "parameters_per_model": 6005,
+    "ensemble_seeds": [
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  "training": {
+    "window_quarterbeats": 64,
+    "batch_size": 8,
+    "optimizer_steps": 600,
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "positive_weight": 10,
+    "augmentation": "contiguous 4-position normalized-zero time mask"
+  },
+  "decoding": {
+    "ensemble": "equal probability mean",
+    "policy": "B10 fixed train-derived inter-start prior",
+    "matching": "distance-first greedy one-to-one",
+    "tolerance_quarterbeats": 1,
+    "deployment_folds": [
+      {
+        "fold": 0,
+        "ensemble_threshold": 0.75,
+        "prior_mean_interval": 24.38630604507494,
+        "prior_interval_count": 181,
+        "components": [
+          {
+            "seed": 42,
+            "threshold": 0.7,
+            "checkpoint_sha256": "1998ab256e2bc34f3b8d67b1049af06d1a8343a26e999ec7e4b9634f07d487c7"
+          },
+          {
+            "seed": 43,
+            "threshold": 0.8,
+            "checkpoint_sha256": "b4d76f6d729869b429b5790537da665a0102b65b42b0486f96fe63d6430b9621"
+          },
+          {
+            "seed": 44,
+            "threshold": 0.6,
+            "checkpoint_sha256": "fe40746b4a49958d1b60cb80d993b78c1ef9cfbe954bc28b4290aa51f2523341"
+          },
+          {
+            "seed": 45,
+            "threshold": 0.9,
+            "checkpoint_sha256": "f0094201bc955fc60e1cea821a910622efb60d3cbf24e00c65dab83d457de40b"
+          }
+        ]
+      },
+      {
+        "fold": 1,
+        "ensemble_threshold": 0.6625,
+        "prior_mean_interval": 22.895334271750222,
+        "prior_interval_count": 183,
+        "components": [
+          {
+            "seed": 42,
+            "threshold": 0.55,
+            "checkpoint_sha256": "92c9d7d14117ee00b5b1232fc4bd0c5a2dd11726a1976e1e1e39d90aec571b14"
+          },
+          {
+            "seed": 43,
+            "threshold": 0.7,
+            "checkpoint_sha256": "06830197980aa8404e0406326574a4af9c07f276126e5693537aec04025403d5"
+          },
+          {
+            "seed": 44,
+            "threshold": 0.7,
+            "checkpoint_sha256": "623643f91b59a19fba0ca68b70c2d4ee21874236e5cfe79369c3e1c651292a2a"
+          },
+          {
+            "seed": 45,
+            "threshold": 0.7,
+            "checkpoint_sha256": "54c41f2a219cd1e88a27d2cb9926d5adee16c7486fd87f9e86067ff80518e6c2"
+          }
+        ]
+      }
+    ]
+  },
+  "results": {
+    "internal_development_macro_f1_tol1": 0.8348907914839947,
+    "internal_development_exact_f1": 0.6743439687179005,
+    "internal_development_raw_ap": 0.6963353349692867,
+    "historical_holdout_macro_f1_tol1": 0.6370198984051921,
+    "historical_holdout_exact_f1": 0.5584925144728509,
+    "historical_holdout_strict_blind": false
+  },
+  "example": {
+    "piece_id": "chopin_op06_no1",
+    "performance_id": "pid1263-01",
+    "row_range": [
+      42,
+      54
+    ],
+    "source_probability_sha256": "186776dfef29dd0ce11749f8432db8dfd48cd96f96c7928f2136ae8850624791"
+  }
+}
