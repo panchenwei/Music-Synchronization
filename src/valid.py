@@ -105,10 +105,12 @@ def _load_gt_from_json(asap_annotations_json: Path, asap_key):
     return gt_times, gt_types
 
 
-def _select_predicted_rows_by_time_dp(predicted: pd.DataFrame, gt_times: np.ndarray) -> tuple[pd.DataFrame, str]:
-    pred_times = predicted["predicted_performance_time_sec"].to_numpy(dtype=float)
-    m = len(pred_times)
-    n = len(gt_times)
+def _select_time_indices(candidate_times: np.ndarray, target_times: np.ndarray) -> np.ndarray:
+    """Select an ordered candidate subsequence with minimum squared time error."""
+    m = len(candidate_times)
+    n = len(target_times)
+    if n > m:
+        raise ValueError("time matching needs at least as many candidates as targets")
 
     dp = np.full((m + 1, n + 1), np.inf, dtype=float)
     take = np.zeros((m + 1, n + 1), dtype=np.uint8)
@@ -118,7 +120,7 @@ def _select_predicted_rows_by_time_dp(predicted: pd.DataFrame, gt_times: np.ndar
         upper_j = min(i, n)
         for j in range(1, upper_j + 1):
             skip_cost = dp[i - 1, j]
-            take_cost = dp[i - 1, j - 1] + (pred_times[i - 1] - gt_times[j - 1]) ** 2
+            take_cost = dp[i - 1, j - 1] + (candidate_times[i - 1] - target_times[j - 1]) ** 2
 
             if take_cost <= skip_cost:
                 dp[i, j] = take_cost
@@ -143,48 +145,18 @@ def _select_predicted_rows_by_time_dp(predicted: pd.DataFrame, gt_times: np.ndar
             i -= 1
 
     keep.reverse()
-    selected = predicted.iloc[keep].copy().reset_index(drop=True)
-    return selected, f"time_dp_drop_{m - n}"
+    return np.array(keep, dtype=int)
+
+
+def _select_predicted_rows_by_time_dp(predicted: pd.DataFrame, gt_times: np.ndarray) -> tuple[pd.DataFrame, str]:
+    indices = _select_time_indices(
+        predicted["predicted_performance_time_sec"].to_numpy(dtype=float), gt_times
+    )
+    return predicted.iloc[indices].copy().reset_index(drop=True), f"time_dp_drop_{len(predicted) - len(gt_times)}"
 
 
 def _select_gt_indices_by_time_dp(pred_times: np.ndarray, gt_times: np.ndarray) -> np.ndarray:
-    m = len(pred_times)
-    n = len(gt_times)
-
-    dp = np.full((n + 1, m + 1), np.inf, dtype=float)
-    take = np.zeros((n + 1, m + 1), dtype=np.uint8)
-    dp[:, 0] = 0.0
-
-    for i in range(1, n + 1):
-        upper_j = min(i, m)
-        for j in range(1, upper_j + 1):
-            skip_cost = dp[i - 1, j]
-            take_cost = dp[i - 1, j - 1] + (gt_times[i - 1] - pred_times[j - 1]) ** 2
-
-            if take_cost <= skip_cost:
-                dp[i, j] = take_cost
-                take[i, j] = 1
-            else:
-                dp[i, j] = skip_cost
-
-    if not np.isfinite(dp[n, m]):
-        raise ValueError("dynamic gt beat matching failed")
-
-    keep = []
-    i = n
-    j = m
-    while j > 0:
-        if i <= 0:
-            raise ValueError("dynamic gt beat matching backtrack failed")
-        if take[i, j] == 1:
-            keep.append(i - 1)
-            i -= 1
-            j -= 1
-        else:
-            i -= 1
-
-    keep.reverse()
-    return np.array(keep, dtype=int)
+    return _select_time_indices(gt_times, pred_times)
 
 
 def _select_predicted_rows_for_asap(predicted: pd.DataFrame, gt_times: np.ndarray) -> tuple[pd.DataFrame, str, np.ndarray]:

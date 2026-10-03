@@ -282,21 +282,7 @@ def make_context(row: pd.Series, paths: dict, annotations: dict) -> dict:
 
 
 def append_failure(failures: list, row: pd.Series, paths: dict, stage: str, error: Exception):
-    failures.append(
-        {
-            "composer": row["composer"],
-            "title": row["title"],
-            "folder": paths["folder"],
-            "performer": paths["performer"],
-            "xml_score": str(row["xml_score"]),
-            "audio_performance": str(row["audio_performance"]),
-            "midi_performance": str(row["midi_performance"]),
-            "asap_key": paths["asap_key"],
-            "output_dir": str(paths["output_dir"]),
-            "stage": stage,
-            "error_message": str(error),
-        }
-    )
+    failures.append(build_failure_row(row, paths, stage, error))
 
 
 def build_failure_row(row: pd.Series, paths: dict, stage: str, error: Exception):
