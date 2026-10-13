@@ -1,0 +1,123 @@
+{
+  "status": "completed",
+  "scientific_status": "preliminary_reused_validation_diagnostic",
+  "test_loaded": false,
+  "choices": [
+    {
+      "seed": 17,
+      "condition": "scratch",
+      "best_step": 500,
+      "checkpoint": "checkpoints/goal6_input_consistency/seed17_scratch.pt",
+      "checkpoint_sha256": "ba9e1085b12338ec54f21a18ffb0773f7c5af12c4e3491b0cdd926470e2fcd7f",
+      "threshold": 0.75,
+      "validation_AP": 0.39101853659006436,
+      "validation_F1": 0.5062850953325312,
+      "Exact_F1": 0.40074849703871307,
+      "P": 0.3925977611751149,
+      "R": 0.7612351190476191,
+      "effective_beat_exposure": 376920
+    },
+    {
+      "seed": 17,
+      "condition": "ssl",
+      "best_step": 600,
+      "checkpoint": "checkpoints/goal6_input_consistency/seed17_ssl.pt",
+      "checkpoint_sha256": "73049def9576b6b81cd4d07ce5670d51d25db2ac6d3f92acc0c559a6fdae7087",
+      "threshold": 0.85,
+      "validation_AP": 0.39904703469095404,
+      "validation_F1": 0.4949874322519713,
+      "Exact_F1": 0.3805342467586315,
+      "P": 0.43726480025822134,
+      "R": 0.629752886002886,
+      "effective_beat_exposure": 376920
+    },
+    {
+      "seed": 43,
+      "condition": "scratch",
+      "best_step": 500,
+      "checkpoint": "checkpoints/goal6_input_consistency/seed43_scratch.pt",
+      "checkpoint_sha256": "2379a64bc6314fb2c11360faade3eead79e3fbbc074420a4edc65a2d3a1c40f6",
+      "threshold": 0.8,
+      "validation_AP": 0.3892667112267847,
+      "validation_F1": 0.49739239021241444,
+      "Exact_F1": 0.3780678189958926,
+      "P": 0.3940793789239666,
+      "R": 0.7211117875180375,
+      "effective_beat_exposure": 376920
+    },
+    {
+      "seed": 43,
+      "condition": "ssl",
+      "best_step": 600,
+      "checkpoint": "checkpoints/goal6_input_consistency/seed43_ssl.pt",
+      "checkpoint_sha256": "2576b303fe70d9b6a42418028b7c10f070d51f0ce5bd05ba42b36897c92bb8bc",
+      "threshold": 0.85,
+      "validation_AP": 0.4009371568183688,
+      "validation_F1": 0.49057322617187243,
+      "Exact_F1": 0.39982247694948264,
+      "P": 0.4102134487071568,
+      "R": 0.6574246933621933,
+      "effective_beat_exposure": 376920
+    },
+    {
+      "seed": 89,
+      "condition": "scratch",
+      "best_step": 500,
+      "checkpoint": "checkpoints/goal6_input_consistency/seed89_scratch.pt",
+      "checkpoint_sha256": "7babc8aba3ed060726539e974952fa536f46f70281f94a66b1b6649085bce183",
+      "threshold": 0.85,
+      "validation_AP": 0.3913793784633847,
+      "validation_F1": 0.4707644018144196,
+      "Exact_F1": 0.38182475012855055,
+      "P": 0.4255535743925837,
+      "R": 0.5719246031746033,
+      "effective_beat_exposure": 376920
+    },
+    {
+      "seed": 89,
+      "condition": "ssl",
+      "best_step": 600,
+      "checkpoint": "checkpoints/goal6_input_consistency/seed89_ssl.pt",
+      "checkpoint_sha256": "529d990790a3e21a8b5f5a3cabed148a4f805c99662c795276c77e7cd66f5170",
+      "threshold": 0.9,
+      "validation_AP": 0.3352166634009161,
+      "validation_F1": 0.4486842595074302,
+      "Exact_F1": 0.3414252679344143,
+      "P": 0.37339075854700854,
+      "R": 0.6057088744588744,
+      "effective_beat_exposure": 376920
+    }
+  ],
+  "ssl_minus_scratch": [
+    {
+      "seed": 17,
+      "validation_F1": -0.011297663080559905,
+      "Exact_F1": -0.020214250280081558,
+      "validation_AP": 0.00802849810088968
+    },
+    {
+      "seed": 43,
+      "validation_F1": -0.006819164040542003,
+      "Exact_F1": 0.02175465795359005,
+      "validation_AP": 0.011670445591584089
+    },
+    {
+      "seed": 89,
+      "validation_F1": -0.022080142306989403,
+      "Exact_F1": -0.04039948219413625,
+      "validation_AP": -0.056162715062468616
+    }
+  ],
+  "mean_delta": {
+    "validation_F1": -0.01339898980936377,
+    "Exact_F1": -0.012953024840209252,
+    "validation_AP": -0.012154590456664949
+  },
+  "positive_seed_counts": {
+    "validation_F1": 0,
+    "validation_AP": 2
+  },
+  "promoted": false,
+  "seconds": 53.84400000000005,
+  "limitation": "The same eight validation works were used in prior method development; this is not terminal generalization evidence."
+}

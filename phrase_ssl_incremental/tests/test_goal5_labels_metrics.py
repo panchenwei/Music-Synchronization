@@ -5,6 +5,7 @@ import pandas as pd
 import torch
 
 from src.goal5_downstream import BoundaryTransformer, decode, map_starts, match_f1
+from src.goal6_input_consistency import consistent_supervision
 
 
 class DownstreamTests(unittest.TestCase):
@@ -43,6 +44,20 @@ class DownstreamTests(unittest.TestCase):
             out = model(x, hidden, hidden, lengths)
         self.assertEqual(out.shape, (2, 91))
         self.assertTrue(torch.isfinite(out).all())
+
+    def test_goal6_uses_pretrain_visible_columns_only(self):
+        x = torch.randn(1, 8, 58)
+        valid = torch.ones_like(x, dtype=torch.bool)
+        lengths = torch.tensor([8])
+        labels = {"piece": (np.zeros(8, np.float32), np.ones(8, bool))}
+        clean, hidden, missing, _, _ = consistent_supervision(
+            x, valid, lengths, [{"piece_id": "piece"}], labels
+        )
+        self.assertTrue(hidden[:, :, 25:58].all())
+        self.assertTrue(hidden[:, :, [7, 8, 9, 10, 11]].all())
+        self.assertFalse(hidden[:, :, 0:7].any())
+        self.assertTrue((clean[hidden] == 0).all())
+        self.assertFalse(missing.any())
 
 
 if __name__ == "__main__":

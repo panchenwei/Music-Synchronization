@@ -20,6 +20,7 @@ reports/**/raw_source_access.csv
 reports/**/sources_before_test.csv
 reports/**/all_source_access.csv
 reports/**/cache_access.csv
+reports/**/source_access.csv
 manifests/**/source_access.csv
 manifests/**/source_inventory.csv
 manifests/**/*.csv.gz

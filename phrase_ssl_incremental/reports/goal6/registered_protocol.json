@@ -1,0 +1,90 @@
+{
+  "plan": {
+    "seeds": [
+      17,
+      43,
+      89
+    ],
+    "updates": 600,
+    "eval_every": 100,
+    "lr": 0.0003,
+    "dropout": 0.1,
+    "thresholds": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95
+    ],
+    "visible_input": "Goal4-consistent: columns 25:58 and METADATA always mask-token",
+    "test_policy": "Goal5 test works are not loaded or scored",
+    "promotion": "mean AP and F1 gains >=2pp; both positive in at least 2/3 seeds",
+    "max_seconds": 1800
+  },
+  "split": {
+    "train": [
+      "chopin_op06_no2",
+      "chopin_op06_no3",
+      "chopin_op06_no4",
+      "chopin_op07_no1",
+      "chopin_op07_no2",
+      "chopin_op17_no1",
+      "chopin_op17_no2",
+      "chopin_op17_no4",
+      "chopin_op24_no1",
+      "chopin_op24_no2",
+      "chopin_op24_no4",
+      "chopin_op30_no2",
+      "chopin_op30_no4",
+      "chopin_op33_no2",
+      "chopin_op41_no1",
+      "chopin_op41_no2",
+      "chopin_op41_no3",
+      "chopin_op41_no4",
+      "chopin_op56_no2",
+      "chopin_op56_no3",
+      "chopin_op59_no1",
+      "chopin_op59_no2",
+      "chopin_op59_no3",
+      "chopin_op63_no1",
+      "chopin_op63_no2",
+      "chopin_op67_no1",
+      "chopin_op67_no2",
+      "chopin_op67_no4",
+      "chopin_op68_no1",
+      "chopin_op68_no3"
+    ],
+    "validation": [
+      "chopin_op06_no1",
+      "chopin_op07_no3",
+      "chopin_op30_no3",
+      "chopin_op33_no4",
+      "chopin_op50_no1",
+      "chopin_op50_no3",
+      "chopin_op56_no1",
+      "chopin_op63_no3"
+    ]
+  },
+  "pretrain_sources": {
+    "17": "3848a205ee1f92bef495e231ed1b415dc8195c667c9f34acf98ed58660f1e020",
+    "43": "2266ecd1e37f0b5a9de441eebca97f91e053894fac81149a6105c7a23cfb3a71",
+    "89": "c91752d522dde87c2d583255f6ae0ad1f59ca2e4f2d9a57e4ad2c6c6b0daa9ad"
+  },
+  "model": "same 71029-parameter BoundaryTransformer as Goal5",
+  "status": "registered_before_training",
+  "source_sha256": "bb66199cc8563e456ac5bc78bb37ccbe28f7bdd133ebe3c40f29772b9b3ab81a"
+}

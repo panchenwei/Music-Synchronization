@@ -1,5 +1,13 @@
 # Project Status
 
+## Goal 6最新状态
+
+- `COMPLETE / implemented and locally reproduced; preliminary development diagnostic`：修正预训练与监督输入不一致，只保留同一25维安全内容。
+- 同一30/8首训练/验证、3seed、600步；没有加载Goal 5已公开的4首测试作品。
+- Scratch F1/AP为49.15%/39.06%，SSL为47.81%/37.84%；SSL的F1三个seed全降，平均−1.34pp，未晋级。
+- 输入一致性不是主要病因；当前逐拍统计重建SSL路线停止。下一步比较同一25维输入的小BiGRU与Transformer。
+- 详见`reports/goal6/report.md`与`reports/goal6/independent_audit.json`。
+
 ## Goal 5最新状态
 
 - `COMPLETE / implemented and locally reproduced; preliminary`：整曲Transformer Scratch与SSL初始化的下游对照完成。

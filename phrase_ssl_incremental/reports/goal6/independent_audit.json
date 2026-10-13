@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "max_recomputed_metric_difference": 1.6653345369377348e-16,
+  "six_checkpoint_hashes_match": true,
+  "source_rows": 114,
+  "source_roles": [
+    "dcml_phrase_annotations_downstream_only",
+    "mazurkabl_beat_dyn",
+    "mazurkabl_beat_time"
+  ],
+  "reported_goal5_test_piece_ids_absent_from_access_strings": true,
+  "test_label_mapping_absent": true,
+  "test_loaded": false
+}
