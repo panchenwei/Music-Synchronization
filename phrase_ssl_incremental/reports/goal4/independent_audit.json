@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "six_saved_model_predictions_recomputed": true,
+  "max_macro_difference": 1.1641532404738086e-08,
+  "identical_validation_targets_and_masks": true,
+  "both_baselines_independently_recomputed": true,
+  "matched_train_order_masks_and_beat_exposure": true,
+  "train_validation_reserved_disjoint": true,
+  "reserved_cache_not_accessed": true,
+  "raw_reads_allowed_only": true,
+  "prediction_directories": 6,
+  "script_sha256_matches_registration": true
+}

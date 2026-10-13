@@ -1,0 +1,87 @@
+{
+  "plan": {
+    "split_seed": 20261014,
+    "seeds": [
+      17,
+      43,
+      89
+    ],
+    "train_works": 30,
+    "validation_works": 8,
+    "reserved_works": 4,
+    "performances_per_work": 2,
+    "updates": 400,
+    "eval_every": 100,
+    "validation_mask_seed": 90210,
+    "validation_views": 3,
+    "mask_fraction": 0.12,
+    "lr": 0.001,
+    "dropout": 0.1,
+    "batch_size": 2,
+    "bucket_width": 128,
+    "max_seconds": 1800,
+    "gradient_clip": 1.0,
+    "gate": "music beats own initialization, trained no-content, mean, interpolation by >=2% macro MSE, in all 3 seeds"
+  },
+  "split": {
+    "train": [
+      "chopin_op06_no2",
+      "chopin_op06_no3",
+      "chopin_op06_no4",
+      "chopin_op07_no1",
+      "chopin_op07_no2",
+      "chopin_op17_no1",
+      "chopin_op17_no2",
+      "chopin_op17_no4",
+      "chopin_op24_no1",
+      "chopin_op24_no2",
+      "chopin_op24_no4",
+      "chopin_op30_no2",
+      "chopin_op30_no4",
+      "chopin_op33_no2",
+      "chopin_op41_no1",
+      "chopin_op41_no2",
+      "chopin_op41_no3",
+      "chopin_op41_no4",
+      "chopin_op56_no2",
+      "chopin_op56_no3",
+      "chopin_op59_no1",
+      "chopin_op59_no2",
+      "chopin_op59_no3",
+      "chopin_op63_no1",
+      "chopin_op63_no2",
+      "chopin_op67_no1",
+      "chopin_op67_no2",
+      "chopin_op67_no4",
+      "chopin_op68_no1",
+      "chopin_op68_no3"
+    ],
+    "validation": [
+      "chopin_op06_no1",
+      "chopin_op07_no3",
+      "chopin_op30_no3",
+      "chopin_op33_no4",
+      "chopin_op50_no1",
+      "chopin_op50_no3",
+      "chopin_op56_no1",
+      "chopin_op63_no3"
+    ],
+    "reserved_not_loaded": [
+      "chopin_op24_no3",
+      "chopin_op33_no1",
+      "chopin_op67_no3",
+      "chopin_op68_no2"
+    ]
+  },
+  "model": "2 blocks, d64, 4 heads, FFN128, dynamic sinusoidal positions, 74734 parameters",
+  "source_sha256": "d780f71bc3e7c48dd9a15b87a25d7daaf685ff859c3708c334b1a5f77b04428b",
+  "created_before_training": true,
+  "input_policy": "all cached multiscale/motif columns hidden; all metadata hidden; core spans plus halo4",
+  "controls": [
+    "trained no-content, same init/order/masks",
+    "train mean",
+    "linear interpolation from only visible observed values",
+    "trained music inference with zeroed content"
+  ],
+  "stop": "400 updates per condition/seed; stop on nonfinite or 1800sec; no hyperparameter sweep"
+}

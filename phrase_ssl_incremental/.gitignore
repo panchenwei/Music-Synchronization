@@ -1,0 +1,31 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# 生成物不提交；实验清单和报告按需要显式加入版本控制。
+cache/
+checkpoints/
+artifacts/
+logs/
+
+# Local machine paths and large per-performance prediction arrays.
+configs/data_paths.toml
+reports/**/*.npz
+reports/goal2/smoke_result.json
+reports/goal3/smoke_result.json
+
+# Access logs and cache manifests contain local absolute paths. Rebuild them
+# from data_paths.toml instead of publishing machine-specific copies.
+reports/**/raw_source_access.csv
+reports/**/sources_before_test.csv
+reports/**/all_source_access.csv
+reports/**/cache_access.csv
+manifests/**/source_access.csv
+manifests/**/source_inventory.csv
+manifests/**/*.csv.gz
+manifests/**/piece_audit.csv
+
+# 防止误把原始数据复制进新项目。
+data/
+datasets/
+raw_data/

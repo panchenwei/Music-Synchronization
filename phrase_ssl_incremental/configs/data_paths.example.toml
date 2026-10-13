@@ -1,0 +1,22 @@
+# Copy this file to data_paths.toml and replace every path for the local machine.
+
+[raw]
+mazurkabl = 'D:\data\MazurkaBL'
+dcml_chopin = 'D:\data\DCMLab-chopin_mazurkas'
+asap = 'D:\data\asap-dataset'
+maestro = 'D:\data\maestro-v2.0.0'
+
+[legacy_read_only]
+experiment_root = 'D:\work\Music-Synchronization\phrase_boundary_overnight'
+piece_feature_cache = 'D:\work\Music-Synchronization\phrase_boundary_overnight\cache\piece_features'
+splits = 'D:\work\Music-Synchronization\phrase_boundary_overnight\splits'
+source_manifest = 'D:\work\Music-Synchronization\phrase_boundary_overnight\manifests\source_inventory.json'
+
+[output]
+project_root = 'D:\work\Music-Synchronization\phrase_ssl_incremental'
+cache = 'D:\work\Music-Synchronization\phrase_ssl_incremental\cache'
+manifests = 'D:\work\Music-Synchronization\phrase_ssl_incremental\manifests'
+checkpoints = 'D:\work\Music-Synchronization\phrase_ssl_incremental\checkpoints'
+artifacts = 'D:\work\Music-Synchronization\phrase_ssl_incremental\artifacts'
+reports = 'D:\work\Music-Synchronization\phrase_ssl_incremental\reports'
+logs = 'D:\work\Music-Synchronization\phrase_ssl_incremental\logs'

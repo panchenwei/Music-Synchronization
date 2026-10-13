@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "independent_bipartite_match_recomputation": true,
+  "max_metric_difference": 8.326672684688674e-17,
+  "mapping_formula_checked_all_subsets": true,
+  "test_annotation_not_read_before_freeze": true,
+  "six_checkpoint_hashes_match_frozen_choices": true,
+  "thresholds_validation_only": true,
+  "work_disjoint": true,
+  "mean_scores": {
+    "scratch": {
+      "P": 0.5676421957671958,
+      "R": 0.4858382936507937,
+      "F1": 0.47229872604923084,
+      "Exact_F1": 0.2962708383508626,
+      "AP": 0.4207985837221771
+    },
+    "ssl": {
+      "P": 0.6026636708701926,
+      "R": 0.4401041666666667,
+      "F1": 0.4334409803159803,
+      "Exact_F1": 0.24479027916527915,
+      "AP": 0.3639775560545165
+    }
+  },
+  "paired_work_F1_delta": -0.038857745733250536,
+  "paired_four_work_bootstrap_95_CI": [
+    -0.09193445443445447,
+    0.01366290300113826
+  ],
+  "limitation": "Four independent works only; interval unstable and not evidence of broad generalization"
+}

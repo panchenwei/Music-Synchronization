@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "scientific_status": "implemented_and_locally_reproduced_data_pipeline",
+  "candidate_pieces": 45,
+  "usable_pieces": 42,
+  "excluded_pieces": 3,
+  "performances": 1954,
+  "windows": 19653,
+  "full_piece_sequences": 1954,
+  "sequence_protocols": [
+    "fixed_64_stride_32",
+    "full_piece_variable_length"
+  ],
+  "feature_dimensions": 58,
+  "visualizations": [
+    "chopin_op06_no1",
+    "chopin_op06_no4",
+    "chopin_op07_no2"
+  ],
+  "forbidden_source_accesses": 0,
+  "model_training_runs": 0,
+  "length_compatibility_rule": "min(|score_qb-beat_rows|, |score_qb-(beat_rows-1)|) <= 2",
+  "seconds": 64.70299999999997
+}

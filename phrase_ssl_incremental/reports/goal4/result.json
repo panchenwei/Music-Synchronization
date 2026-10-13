@@ -1,0 +1,189 @@
+{
+  "status": "completed",
+  "scientific_status": "preliminary_unlabeled_validation",
+  "plan": {
+    "split_seed": 20261014,
+    "seeds": [
+      17,
+      43,
+      89
+    ],
+    "train_works": 30,
+    "validation_works": 8,
+    "reserved_works": 4,
+    "performances_per_work": 2,
+    "updates": 400,
+    "eval_every": 100,
+    "validation_mask_seed": 90210,
+    "validation_views": 3,
+    "mask_fraction": 0.12,
+    "lr": 0.001,
+    "dropout": 0.1,
+    "batch_size": 2,
+    "bucket_width": 128,
+    "max_seconds": 1800,
+    "gradient_clip": 1.0,
+    "gate": "music beats own initialization, trained no-content, mean, interpolation by >=2% macro MSE, in all 3 seeds"
+  },
+  "split": {
+    "train": [
+      "chopin_op06_no2",
+      "chopin_op06_no3",
+      "chopin_op06_no4",
+      "chopin_op07_no1",
+      "chopin_op07_no2",
+      "chopin_op17_no1",
+      "chopin_op17_no2",
+      "chopin_op17_no4",
+      "chopin_op24_no1",
+      "chopin_op24_no2",
+      "chopin_op24_no4",
+      "chopin_op30_no2",
+      "chopin_op30_no4",
+      "chopin_op33_no2",
+      "chopin_op41_no1",
+      "chopin_op41_no2",
+      "chopin_op41_no3",
+      "chopin_op41_no4",
+      "chopin_op56_no2",
+      "chopin_op56_no3",
+      "chopin_op59_no1",
+      "chopin_op59_no2",
+      "chopin_op59_no3",
+      "chopin_op63_no1",
+      "chopin_op63_no2",
+      "chopin_op67_no1",
+      "chopin_op67_no2",
+      "chopin_op67_no4",
+      "chopin_op68_no1",
+      "chopin_op68_no3"
+    ],
+    "validation": [
+      "chopin_op06_no1",
+      "chopin_op07_no3",
+      "chopin_op30_no3",
+      "chopin_op33_no4",
+      "chopin_op50_no1",
+      "chopin_op50_no3",
+      "chopin_op56_no1",
+      "chopin_op63_no3"
+    ],
+    "reserved_not_loaded": [
+      "chopin_op24_no3",
+      "chopin_op33_no1",
+      "chopin_op67_no3",
+      "chopin_op68_no2"
+    ]
+  },
+  "device": "cuda",
+  "train_performances": 60,
+  "validation_performances": 16,
+  "baselines": {
+    "mean": 1.1039290038558343,
+    "interpolation": 1.2707053512955706
+  },
+  "gates": [
+    {
+      "seed": 17,
+      "passed": false,
+      "music": 1.1039809208984175,
+      "no_content": 1.1045052544213831,
+      "relative_content_gain": 0.0004747225247383193
+    },
+    {
+      "seed": 43,
+      "passed": false,
+      "music": 1.1041600604852042,
+      "no_content": 1.10544095452254,
+      "relative_content_gain": 0.0011587177334940791
+    },
+    {
+      "seed": 89,
+      "passed": false,
+      "music": 1.1048448854126036,
+      "no_content": 1.100838179079195,
+      "relative_content_gain": -0.0036396869308802926
+    }
+  ],
+  "promote": false,
+  "runs": [
+    {
+      "seed": 17,
+      "condition": "music",
+      "initial": 1.4321393274391692,
+      "best_validation": 1.1039809208984175,
+      "best_step": 100,
+      "last_validation": 1.1104383401883144,
+      "content_ablated": 1.104679037661602,
+      "effective_beat_exposure": 250846,
+      "train_order_mask_sha256": "f8f07c8297dc8e93411f3adf88dea61a84f236a402b75e618c013bb61d2548f4"
+    },
+    {
+      "seed": 17,
+      "condition": "no_content",
+      "initial": 1.434121439854304,
+      "best_validation": 1.1045052544213831,
+      "best_step": 100,
+      "last_validation": 1.1096069870206215,
+      "content_ablated": 1.1045052544213831,
+      "effective_beat_exposure": 250846,
+      "train_order_mask_sha256": "f8f07c8297dc8e93411f3adf88dea61a84f236a402b75e618c013bb61d2548f4"
+    },
+    {
+      "seed": 43,
+      "condition": "music",
+      "initial": 1.4483785623063645,
+      "best_validation": 1.1041600604852042,
+      "best_step": 200,
+      "last_validation": 1.140106329228729,
+      "content_ablated": 1.1062585852729776,
+      "effective_beat_exposure": 250268,
+      "train_order_mask_sha256": "3e4006bf2dbce8bab666d7e226a2a25a18490e838949bc8336835949403085cb"
+    },
+    {
+      "seed": 43,
+      "condition": "no_content",
+      "initial": 1.448784132177631,
+      "best_validation": 1.10544095452254,
+      "best_step": 200,
+      "last_validation": 1.1262871784468493,
+      "content_ablated": 1.10544095452254,
+      "effective_beat_exposure": 250268,
+      "train_order_mask_sha256": "3e4006bf2dbce8bab666d7e226a2a25a18490e838949bc8336835949403085cb"
+    },
+    {
+      "seed": 89,
+      "condition": "music",
+      "initial": 1.4767011621346078,
+      "best_validation": 1.1048448854126036,
+      "best_step": 400,
+      "last_validation": 1.1048448854126036,
+      "content_ablated": 1.1203270610421896,
+      "effective_beat_exposure": 250898,
+      "train_order_mask_sha256": "8b2b769915b76e2d547f31a6877ea72d2e472a1a14be64702c63b48fba7a54ad"
+    },
+    {
+      "seed": 89,
+      "condition": "no_content",
+      "initial": 1.4794331366817155,
+      "best_validation": 1.100838179079195,
+      "best_step": 400,
+      "last_validation": 1.100838179079195,
+      "content_ablated": 1.100838179079195,
+      "effective_beat_exposure": 250898,
+      "train_order_mask_sha256": "8b2b769915b76e2d547f31a6877ea72d2e472a1a14be64702c63b48fba7a54ad"
+    }
+  ],
+  "seconds": 38.04700000000048,
+  "peak_gpu_mib": 52.78564453125,
+  "checkpoint_sha256": {
+    "seed17_music.pt": "3848a205ee1f92bef495e231ed1b415dc8195c667c9f34acf98ed58660f1e020",
+    "seed17_no_content.pt": "01355c7da9ec85ede6ffab919586198ac5655deb203926b9ada0fa7c85ab641c",
+    "seed43_music.pt": "2266ecd1e37f0b5a9de441eebca97f91e053894fac81149a6105c7a23cfb3a71",
+    "seed43_no_content.pt": "8aab7a814089de1f828529ff7efe08c995238dedc804abc298b2065225b9c243",
+    "seed89_music.pt": "c91752d522dde87c2d583255f6ae0ad1f59ca2e4f2d9a57e4ad2c6c6b0daa9ad",
+    "seed89_no_content.pt": "f82c79750c65097df3601f05de7afec1036ee3c81bda229361d959cf4be01fb3"
+  },
+  "no_labels": true,
+  "reserved_not_loaded": true
+}

@@ -1,0 +1,59 @@
+index,name,group,time_support,coordinate,missing_rule
+0,log_tempo,performance_curve,one beat,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+1,tempo_d1,performance_curve,one beat,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+2,tempo_d2,performance_curve,one beat,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+3,dynamics,performance_curve,one beat,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+4,dynamics_d1,performance_curve,one beat,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+5,tempo_robust_z,performance_curve,one beat,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+6,dynamics_robust_z,performance_curve,one beat,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+7,time_observed,performance_curve,one beat,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+8,dynamics_observed,performance_curve,one beat,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+9,metric_phase_sin,score_cue,one beat plus past transition,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+10,metric_phase_cos,score_cue,one beat plus past transition,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+11,strong_beat,score_cue,one beat plus past transition,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+12,onset_gap_before,score_cue,one beat plus past transition,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+13,rest_duration_before,score_cue,one beat plus past transition,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+14,sustain_ratio,score_cue,one beat plus past transition,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+15,duration_change,score_cue,one beat plus past transition,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+16,top_voice_interval,score_cue,one beat plus past transition,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+17,absolute_leap,score_cue,one beat plus past transition,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+18,direction_change,score_cue,one beat plus past transition,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+19,onset_density_log,score_cue,one beat plus past transition,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+20,active_density_change,score_cue,one beat plus past transition,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+21,pitch_range,score_cue,one beat plus past transition,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+22,bass_motion,score_cue,one beat plus past transition,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+23,tonal_novelty,score_cue,one beat plus past transition,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+24,lbdm_strength,score_cue,one beat plus past transition,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+25,tempo_rmsq_s1,tempo_multiscale,1/3/6/12/24-beat blocks,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+26,tempo_rmsq_s3,tempo_multiscale,1/3/6/12/24-beat blocks,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+27,tempo_rmsq_s6,tempo_multiscale,1/3/6/12/24-beat blocks,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+28,tempo_rmsq_s12,tempo_multiscale,1/3/6/12/24-beat blocks,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+29,tempo_rmsq_s24,tempo_multiscale,1/3/6/12/24-beat blocks,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+30,tempo_rmsq_quality_s24,tempo_multiscale,1/3/6/12/24-beat blocks,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+31,tempo_lag_available,tempo_multiscale,1/3/6/12/24-beat blocks,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+32,tempo_direction_zero_control,tempo_multiscale,1/3/6/12/24-beat blocks,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+33,tempo_direction_available,tempo_multiscale,1/3/6/12/24-beat blocks,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+34,staff_first_s3_forward_repeat,ordered_motif,3/6/12-beat windows,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+35,staff_first_s3_backward_repeat,ordered_motif,3/6/12-beat windows,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+36,staff_first_s3_start_contrast,ordered_motif,3/6/12-beat windows,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+37,staff_first_s3_available,ordered_motif,3/6/12-beat windows,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+38,staff_first_s6_forward_repeat,ordered_motif,3/6/12-beat windows,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+39,staff_first_s6_backward_repeat,ordered_motif,3/6/12-beat windows,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+40,staff_first_s6_start_contrast,ordered_motif,3/6/12-beat windows,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+41,staff_first_s6_available,ordered_motif,3/6/12-beat windows,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+42,staff_first_s12_forward_repeat,ordered_motif,3/6/12-beat windows,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+43,staff_first_s12_backward_repeat,ordered_motif,3/6/12-beat windows,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+44,staff_first_s12_start_contrast,ordered_motif,3/6/12-beat windows,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+45,staff_first_s12_available,ordered_motif,3/6/12-beat windows,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+46,staff_last_s3_forward_repeat,ordered_motif,3/6/12-beat windows,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+47,staff_last_s3_backward_repeat,ordered_motif,3/6/12-beat windows,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+48,staff_last_s3_start_contrast,ordered_motif,3/6/12-beat windows,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+49,staff_last_s3_available,ordered_motif,3/6/12-beat windows,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+50,staff_last_s6_forward_repeat,ordered_motif,3/6/12-beat windows,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+51,staff_last_s6_backward_repeat,ordered_motif,3/6/12-beat windows,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+52,staff_last_s6_start_contrast,ordered_motif,3/6/12-beat windows,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+53,staff_last_s6_available,ordered_motif,3/6/12-beat windows,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+54,staff_last_s12_forward_repeat,ordered_motif,3/6/12-beat windows,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+55,staff_last_s12_backward_repeat,ordered_motif,3/6/12-beat windows,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+56,staff_last_s12_start_contrast,ordered_motif,3/6/12-beat windows,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite
+57,staff_last_s12_available,ordered_motif,3/6/12-beat windows,"quarterbeat row i represents [i,i+1)",explicit observed/available columns; numeric values finite

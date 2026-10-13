@@ -8,6 +8,7 @@ Score–audio alignment, phrase-boundary experiments, and an interactive researc
 | --- | --- |
 | `src/` | MuseScore export, MIDI beat extraction, Chroma/DLNCO MrMsDTW alignment, beat mapping and evaluation |
 | `phrase_boundary_overnight/` | Separate phrase-start research workspace; inspect each experiment's protocol and completion audit before citing results |
+| `phrase_ssl_incremental/` | New work-disjoint SSL/Transformer study. Goal 1–5 are implemented and locally reproduced; its four-work test conclusion is preliminary |
 | `music_structure_portfolio/` | TypeScript/Vite portfolio with recorded research replay and a read-only Node server |
 | `dataset/`, `output/` | Local datasets and generated alignment outputs |
 
@@ -54,3 +55,7 @@ provenance, and deployment configuration. Recorded replay is not live inference.
 Keep raw datasets, model checkpoints, generated caches, and private meeting
 materials out of public commits. Existing local files are not automatically
 part of a Git commit.
+
+The two phrase workspaces use different splits, models, and decoding protocols.
+Do not compare their F1 values as if they were one leaderboard. Start with each
+workspace's README and cited protocol.

@@ -1,0 +1,140 @@
+{
+  "status": "completed",
+  "scientific_status": "preliminary_four_work_test_comparison",
+  "split": {
+    "train": [
+      "chopin_op06_no2",
+      "chopin_op06_no3",
+      "chopin_op06_no4",
+      "chopin_op07_no1",
+      "chopin_op07_no2",
+      "chopin_op17_no1",
+      "chopin_op17_no2",
+      "chopin_op17_no4",
+      "chopin_op24_no1",
+      "chopin_op24_no2",
+      "chopin_op24_no4",
+      "chopin_op30_no2",
+      "chopin_op30_no4",
+      "chopin_op33_no2",
+      "chopin_op41_no1",
+      "chopin_op41_no2",
+      "chopin_op41_no3",
+      "chopin_op41_no4",
+      "chopin_op56_no2",
+      "chopin_op56_no3",
+      "chopin_op59_no1",
+      "chopin_op59_no2",
+      "chopin_op59_no3",
+      "chopin_op63_no1",
+      "chopin_op63_no2",
+      "chopin_op67_no1",
+      "chopin_op67_no2",
+      "chopin_op67_no4",
+      "chopin_op68_no1",
+      "chopin_op68_no3"
+    ],
+    "validation": [
+      "chopin_op06_no1",
+      "chopin_op07_no3",
+      "chopin_op30_no3",
+      "chopin_op33_no4",
+      "chopin_op50_no1",
+      "chopin_op50_no3",
+      "chopin_op56_no1",
+      "chopin_op63_no3"
+    ],
+    "test": [
+      "chopin_op24_no3",
+      "chopin_op33_no1",
+      "chopin_op67_no3",
+      "chopin_op68_no2"
+    ]
+  },
+  "model_parameters": 71029,
+  "pos_weight": 25.798270893371757,
+  "runs": [
+    {
+      "seed": 17,
+      "condition": "scratch",
+      "threshold": 0.5,
+      "P": 0.5991071428571428,
+      "R": 0.5729910714285714,
+      "F1": 0.5457057328860397,
+      "Exact_F1": 0.39003803102268575,
+      "AP": 0.4774877093483527
+    },
+    {
+      "seed": 17,
+      "condition": "ssl",
+      "threshold": 0.7,
+      "P": 0.5754599567099568,
+      "R": 0.47805059523809523,
+      "F1": 0.47683115495615497,
+      "Exact_F1": 0.35611853424353423,
+      "AP": 0.40050242475791786
+    },
+    {
+      "seed": 43,
+      "condition": "scratch",
+      "threshold": 0.95,
+      "P": 0.6156250000000001,
+      "R": 0.41763392857142856,
+      "F1": 0.41388182251185346,
+      "Exact_F1": 0.2567922016064431,
+      "AP": 0.4161992198694629
+    },
+    {
+      "seed": 43,
+      "condition": "ssl",
+      "threshold": 0.95,
+      "P": 0.7827380952380952,
+      "R": 0.31398809523809523,
+      "F1": 0.4057720057720058,
+      "Exact_F1": 0.20943362193362192,
+      "AP": 0.42725654480091735
+    },
+    {
+      "seed": 89,
+      "condition": "scratch",
+      "threshold": 0.95,
+      "P": 0.48819444444444443,
+      "R": 0.46688988095238093,
+      "F1": 0.4573086227497993,
+      "Exact_F1": 0.24198228242345887,
+      "AP": 0.3687088219487158
+    },
+    {
+      "seed": 89,
+      "condition": "ssl",
+      "threshold": 0.85,
+      "P": 0.4497929606625259,
+      "R": 0.5282738095238095,
+      "F1": 0.41771978021978023,
+      "Exact_F1": 0.1688186813186813,
+      "AP": 0.26417369860471435
+    }
+  ],
+  "ssl_minus_scratch": [
+    {
+      "seed": 17,
+      "F1": -0.06887457792988477,
+      "Exact_F1": -0.033919496779151515,
+      "AP": -0.07698528459043485
+    },
+    {
+      "seed": 43,
+      "F1": -0.008109816739847675,
+      "Exact_F1": -0.0473585796728212,
+      "AP": 0.011057324931454449
+    },
+    {
+      "seed": 89,
+      "F1": -0.03958884253001904,
+      "Exact_F1": -0.07316360110477757,
+      "AP": -0.10453512334400145
+    }
+  ],
+  "seconds": 34.92100000000028,
+  "limitation": "Only four held-out works, two performances/work; one frozen development split; no architecture tuning on test"
+}
