@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "scope": "eight reused validation works only",
+  "scale_2": {
+    "macro_AP": 0.1225248692,
+    "positive_mean_z": 0.6632112460,
+    "negative_mean_z": -0.0843770191
+  },
+  "scale_4": {
+    "macro_AP": 0.1143447839,
+    "positive_mean_z": 0.6290184320,
+    "negative_mean_z": -0.0790395702
+  },
+  "scale_8": {
+    "macro_AP": 0.1031614569,
+    "positive_mean_z": 0.6403946728,
+    "negative_mean_z": -0.0059468052
+  },
+  "interpretation": "Phrase starts have higher mean novelty, but standalone ranking is weak."
+}

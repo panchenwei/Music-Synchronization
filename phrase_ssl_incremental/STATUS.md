@@ -1,5 +1,13 @@
 # Project Status
 
+## Goal 8最新状态
+
+- `COMPLETE / implemented and locally reproduced; preliminary development diagnostic`：在同一25维Transformer上加入2/4/8拍前后文novelty。
+- novelty模型验证F1/AP为48.55%/39.52%，控制为49.15%/39.06%；AP仅+0.46pp，F1−0.60pp，未晋级。
+- 句首novelty均值高于负例，但单特征AP只有10.32%～12.25%，说明有弱信息但重叠很大。
+- 三轮结论：输入一致性、缩小为BiGRU、固定novelty均未解决问题。下一阶段应测试标签序列约束或监督式相对结构目标，并启用新的开发/终审协议。
+- 未读取Goal 5测试集；详见`reports/goal8/report.md`。
+
 ## Goal 7最新状态
 
 - `COMPLETE / implemented and locally reproduced; preliminary development diagnostic`：同一25维安全输入下比较6,121参数BiGRU与71,029参数Transformer。

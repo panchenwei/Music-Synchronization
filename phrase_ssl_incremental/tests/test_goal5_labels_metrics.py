@@ -7,6 +7,7 @@ import torch
 from src.goal5_downstream import BoundaryTransformer, decode, map_starts, match_f1
 from src.goal6_input_consistency import consistent_supervision
 from src.goal7_small_bigru import SmallBiGRU
+from src.goal8_novelty import novelty_features
 
 
 class DownstreamTests(unittest.TestCase):
@@ -72,6 +73,16 @@ class DownstreamTests(unittest.TestCase):
         self.assertTrue(torch.isfinite(output).all())
         # 6005 model parameters plus two 58-D input-state tokens.
         self.assertEqual(sum(parameter.numel() for parameter in model.parameters()), 6121)
+
+    def test_goal8_novelty_detects_context_change_without_edge_artifacts(self):
+        values = torch.zeros(1, 24, 58)
+        values[:, 12:, 0:7] = 2
+        valid = torch.ones_like(values, dtype=torch.bool)
+        novelty, observed = novelty_features(values, valid, torch.tensor([24]))
+        self.assertTrue((novelty[0, 12] > 0).all())
+        self.assertEqual(int(novelty[0, :, 2].argmax()), 12)
+        self.assertFalse(observed[0, :8, 2].any())
+        self.assertFalse(observed[0, 17:, 2].any())
 
 
 if __name__ == "__main__":

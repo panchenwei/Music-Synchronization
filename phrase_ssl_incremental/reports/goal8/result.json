@@ -1,0 +1,71 @@
+{
+  "status": "completed",
+  "scientific_status": "preliminary_reused_validation_representation_diagnostic",
+  "test_loaded": false,
+  "novelty_mean": [
+    0.8569886684417725,
+    0.638766348361969,
+    0.4770352840423584
+  ],
+  "novelty_scale": [
+    0.3587191104888916,
+    0.2375078648328781,
+    0.17776112258434296
+  ],
+  "runs": [
+    {
+      "seed": 17,
+      "best_step": 600,
+      "threshold": 0.9,
+      "checkpoint": "checkpoints/goal8_novelty/seed17.pt",
+      "checkpoint_sha256": "641b07d5f8a212de2e50254caa084fc0b631e557a3cfc6faaa97bc28650cbeb5",
+      "P": 0.435606654378501,
+      "R": 0.6774959415584416,
+      "validation_F1": 0.5116333009930183,
+      "Exact_F1": 0.40788423127787504,
+      "validation_AP": 0.39661756897513106,
+      "delta_F1_vs_control": 0.005348205660487104,
+      "delta_AP_vs_control": 0.00559903238506676,
+      "effective_beat_exposure": 376920
+    },
+    {
+      "seed": 43,
+      "best_step": 600,
+      "threshold": 0.8,
+      "checkpoint": "checkpoints/goal8_novelty/seed43.pt",
+      "checkpoint_sha256": "fd489e4bf8c44d9457cc2c49232559681013619cf9f11d5e27b6e5e5ef040f25",
+      "P": 0.3954136983318969,
+      "R": 0.6916858315295815,
+      "validation_F1": 0.4884530515779718,
+      "Exact_F1": 0.38679588374179,
+      "validation_AP": 0.4019679078927361,
+      "delta_F1_vs_control": -0.008939338634442573,
+      "delta_AP_vs_control": 0.01270119666595143,
+      "effective_beat_exposure": 376920
+    },
+    {
+      "seed": 89,
+      "best_step": 500,
+      "threshold": 0.8,
+      "checkpoint": "checkpoints/goal8_novelty/seed89.pt",
+      "checkpoint_sha256": "21a7b7702567b204522c89531e9bedf8d61c889ed96f81bdfecc8853d59c1612",
+      "P": 0.39614139385188213,
+      "R": 0.5817110840548341,
+      "validation_F1": 0.4564797764480063,
+      "Exact_F1": 0.36320957834321954,
+      "validation_AP": 0.38686872280371987,
+      "delta_F1_vs_control": -0.014284625366413284,
+      "delta_AP_vs_control": -0.004510655659664853,
+      "effective_beat_exposure": 376920
+    }
+  ],
+  "mean_delta_F1_vs_control": -0.0059585861134562506,
+  "mean_delta_AP_vs_control": 0.004596524463784446,
+  "positive_seed_counts": {
+    "F1": 1,
+    "AP": 2
+  },
+  "promoted": false,
+  "seconds": 24.484999999998763,
+  "limitation": "Repeated development validation only; adapted novelty mechanism is not a reproduction of section-level SSM papers."
+}
