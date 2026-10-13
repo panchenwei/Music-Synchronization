@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "dynamic_program_matches_brute_force_tolerance": 1e-6,
+  "finite_nonzero_gradients": true,
+  "initial_loss": 0.4461573362350464,
+  "final_loss": 0.002798414323478937,
+  "loss_ratio": 0.006272258901072211,
+  "source_rows": 90,
+  "validation_label_mapping_absent": true,
+  "test_label_mapping_absent": true,
+  "validation_loaded": false,
+  "test_loaded": false
+}

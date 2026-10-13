@@ -11,6 +11,7 @@ from src.goal8_novelty import novelty_features
 from src.goal9_interval_decoder import decode as interval_decode, fit_prior
 from src.goal10_nested_decoder_cv import build_nested_splits
 from src.goal11_interval_ranking import interval_ranking_loss
+from src.goal12_global_crf_smoke import path_log_partition, sequence_nll
 
 
 class DownstreamTests(unittest.TestCase):
@@ -126,6 +127,25 @@ class DownstreamTests(unittest.TestCase):
         self.assertLess(float(good_loss.detach()), float(bad_loss.detach()))
         good_loss.backward()
         self.assertTrue(torch.isfinite(good.grad).all())
+
+    def test_goal12_global_partition_matches_brute_force(self):
+        unary = torch.tensor([0.2, -0.3, 0.7, -0.1, 0.4, -0.5], requires_grad=True)
+        transition = torch.linspace(-0.2, 0.3, 4)
+        scores = [unary.new_zeros(())]
+        for mask in range(1, 1 << len(unary)):
+            starts = [index for index in range(len(unary)) if mask & (1 << index)]
+            gaps = [right - left for left, right in zip(starts[:-1], starts[1:])]
+            if all(2 <= gap <= 4 for gap in gaps):
+                scores.append(unary[starts].sum() + sum((transition[gap - 1] for gap in gaps), unary.new_zeros(())))
+        expected = torch.logsumexp(torch.stack(scores), dim=0)
+        actual = path_log_partition(unary, transition, 2, 4)
+        self.assertLess(float((expected - actual).abs().detach()), 1e-6)
+        labels = torch.tensor([0, 0, 1, 0, 1, 0], dtype=torch.float32)
+        loss = sequence_nll(unary, labels, transition, 2, 4)
+        self.assertTrue(torch.isfinite(loss))
+        loss.backward()
+        self.assertTrue(torch.isfinite(unary.grad).all())
+        self.assertTrue(bool((unary.grad != 0).any()))
 
 
 if __name__ == "__main__":

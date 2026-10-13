@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "scientific_status": "numerical_smoke_only",
+  "validation_loaded": false,
+  "test_loaded": false,
+  "batch_performances": 2,
+  "batch_max_length": 121,
+  "initial_loss": 0.4461573362350464,
+  "final_loss": 0.002798414323478937,
+  "loss_ratio": 0.006272258901072211,
+  "finite_nonzero_gradients": true,
+  "promotion_gate_passed": true,
+  "seconds": 13.938000000000102,
+  "limitation": "Single training batch tiny-overfit; no accuracy or generalization claim."
+}

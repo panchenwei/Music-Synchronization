@@ -1,0 +1,50 @@
+{
+  "plan": {
+    "seed": 43,
+    "updates": 60,
+    "lr": 0.001,
+    "minimum_gap": 2,
+    "maximum_gap": 128,
+    "prior_strength": 0.5,
+    "promotion": "DP==brute force; finite nonzero gradients; final loss <50% initial",
+    "max_seconds": 600
+  },
+  "split": {
+    "train": [
+      "chopin_op06_no2",
+      "chopin_op06_no3",
+      "chopin_op06_no4",
+      "chopin_op07_no1",
+      "chopin_op07_no2",
+      "chopin_op17_no1",
+      "chopin_op17_no2",
+      "chopin_op17_no4",
+      "chopin_op24_no1",
+      "chopin_op24_no2",
+      "chopin_op24_no4",
+      "chopin_op30_no2",
+      "chopin_op30_no4",
+      "chopin_op33_no2",
+      "chopin_op41_no1",
+      "chopin_op41_no2",
+      "chopin_op41_no3",
+      "chopin_op41_no4",
+      "chopin_op56_no2",
+      "chopin_op56_no3",
+      "chopin_op59_no1",
+      "chopin_op59_no2",
+      "chopin_op59_no3",
+      "chopin_op63_no1",
+      "chopin_op63_no2",
+      "chopin_op67_no1",
+      "chopin_op67_no2",
+      "chopin_op67_no4",
+      "chopin_op68_no1",
+      "chopin_op68_no3"
+    ]
+  },
+  "validation_loaded": false,
+  "test_loaded": false,
+  "status": "registered_before_smoke",
+  "source_sha256": "a9965e06e016bf9a37d578e50e0cbb6f829979bfd939145325b61a918e367b92"
+}

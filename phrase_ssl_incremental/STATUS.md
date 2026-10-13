@@ -1,5 +1,11 @@
 # Project Status
 
+## Goal 12最新状态
+
+- `COMPLETE / implemented and locally reproduced smoke`：全局句距点过程CRF损失的动态规划、真值路径和梯度已实现。
+- 6拍动态规划与穷举误差<1e-6；训练集最短batch上60步NLL 0.446157→0.002798，梯度有限非零，smoke门槛通过。
+- 未加载验证/测试，未计算F1/AP，不能称为准确率提升。下一步才是3seed BCE对照；详见`reports/goal12/report.md`。
+
 ## Goal 11最新状态
 
 - `COMPLETE / implemented and locally reproduced; preliminary reused-validation mechanism diagnostic`：在BCE上加入固定0.2权重的teacher-forced下一句首区间排序损失，3seed×600更新。
