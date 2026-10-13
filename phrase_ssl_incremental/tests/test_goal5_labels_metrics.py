@@ -10,6 +10,7 @@ from src.goal7_small_bigru import SmallBiGRU
 from src.goal8_novelty import novelty_features
 from src.goal9_interval_decoder import decode as interval_decode, fit_prior
 from src.goal10_nested_decoder_cv import build_nested_splits
+from src.goal11_interval_ranking import interval_ranking_loss
 
 
 class DownstreamTests(unittest.TestCase):
@@ -109,6 +110,22 @@ class DownstreamTests(unittest.TestCase):
             self.assertEqual(set(split["train"] + split["inner"] + split["outer"]), set(pieces))
             outer.extend(split["outer"])
         self.assertEqual(sorted(outer), sorted(pieces))
+
+    def test_goal11_interval_ranking_prefers_true_next_boundary(self):
+        labels = torch.zeros(1, 12)
+        labels[0, [2, 8]] = 1
+        coverage = torch.ones(1, 12, dtype=torch.bool)
+        potential = torch.zeros(256)
+        good = torch.zeros(1, 12, requires_grad=True)
+        bad = torch.zeros(1, 12, requires_grad=True)
+        good.data[0, 8] = 4
+        bad.data[0, 7] = 4
+        good_loss, count = interval_ranking_loss(good, labels, coverage, potential)
+        bad_loss, _ = interval_ranking_loss(bad, labels, coverage, potential)
+        self.assertEqual(count, 1)
+        self.assertLess(float(good_loss.detach()), float(bad_loss.detach()))
+        good_loss.backward()
+        self.assertTrue(torch.isfinite(good.grad).all())
 
 
 if __name__ == "__main__":

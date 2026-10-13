@@ -1,0 +1,47 @@
+{
+  "status": "completed",
+  "scientific_status": "preliminary_reused_validation_mechanism_diagnostic",
+  "test_loaded": false,
+  "new_training_runs": 3,
+  "interval_ranking_minus_bce_interval_decoder": [
+    {
+      "seed": 17,
+      "P": 0.025801751326373967,
+      "R": -0.1033053751803753,
+      "F1": -0.012731813641844059,
+      "Exact_F1": -0.03553011653354027,
+      "AP": -0.015629432692788714
+    },
+    {
+      "seed": 43,
+      "P": 0.02290399169202406,
+      "R": -0.03175843253968247,
+      "F1": 0.00805546510599342,
+      "Exact_F1": 0.008312803508385314,
+      "AP": -0.006055215798532965
+    },
+    {
+      "seed": 89,
+      "P": -0.02027191980647014,
+      "R": 0.1113140331890331,
+      "F1": 0.023455387948772166,
+      "Exact_F1": 0.008175546059392524,
+      "AP": -0.017771103209255124
+    }
+  ],
+  "mean_delta": {
+    "seed": 49.666666666666664,
+    "P": 0.009477941070642629,
+    "R": -0.007916591510341556,
+    "F1": 0.006259679804307176,
+    "Exact_F1": -0.006347255655254143,
+    "AP": -0.0131519172335256
+  },
+  "positive_seed_counts": {
+    "F1": 2,
+    "AP": 0
+  },
+  "promoted": false,
+  "seconds": 41.98399999999856,
+  "limitation": "Reuses the eight-work development split; must pass nested OOF before scientific promotion."
+}

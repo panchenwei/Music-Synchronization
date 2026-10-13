@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "max_recomputed_metric_difference": 1.1102230246251565e-16,
+  "max_AP_difference_between_decoders": 0.0,
+  "three_checkpoint_hashes_match": true,
+  "seeds": 3,
+  "validation_works_per_seed": 8,
+  "performances_per_seed": 16,
+  "source_rows": 114,
+  "reserved_goal5_test_works_absent": true,
+  "test_label_mapping_absent": true,
+  "test_loaded": false
+}

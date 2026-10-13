@@ -33,6 +33,7 @@ reports/goal10/fold*/outer_label_mapping.csv
 reports/goal10/fold*/train_interval_prior.json
 reports/goal10/fold*/learning_curve.csv
 reports/goal10/fold*/outer_performance_metrics.csv
+reports/goal11/*_label_mapping.csv
 
 # 防止误把原始数据复制进新项目。
 data/

@@ -1,5 +1,12 @@
 # Project Status
 
+## Goal 11最新状态
+
+- `COMPLETE / implemented and locally reproduced; preliminary reused-validation mechanism diagnostic`：在BCE上加入固定0.2权重的teacher-forced下一句首区间排序损失，3seed×600更新。
+- 相对Goal 9 BCE+句距解码，F1 52.48%→53.10%（+0.63pp），Exact 40.29%→39.65%（−0.63pp），AP 39.06%→37.74%（−1.32pp，3/3 seed下降）。
+- 未达到预注册门槛，方案淘汰，不扫权重、不进入五折。病因是训练依赖真实前一句首锚点，却没有全局归一化完整预测序列。
+- 未读取Goal 5测试集；详见`reports/goal11/report.md`。
+
 ## Goal 10最新状态
 
 - `COMPLETE / implemented and locally reproduced; preliminary nested OOF decoder evidence`：38首开发作品做5轮嵌套作品级评估，每首只外评一次；旧4首测试作品未加载。
