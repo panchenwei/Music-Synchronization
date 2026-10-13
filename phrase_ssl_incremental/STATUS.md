@@ -1,5 +1,12 @@
 # Project Status
 
+## Goal 7最新状态
+
+- `COMPLETE / implemented and locally reproduced; preliminary development diagnostic`：同一25维安全输入下比较6,121参数BiGRU与71,029参数Transformer。
+- BiGRU验证F1/AP为48.57%/35.45%，Transformer为49.15%/39.06%；BiGRU AP三个seed全降，未晋级。
+- 缩小模型没有解决概率排序问题；不继续堆GRU/TCN/LSTM层数。下一步测试同曲相对自相似/novelty表示。
+- 未读取Goal 5测试集；详见`reports/goal7/report.md`。
+
 ## Goal 6最新状态
 
 - `COMPLETE / implemented and locally reproduced; preliminary development diagnostic`：修正预训练与监督输入不一致，只保留同一25维安全内容。

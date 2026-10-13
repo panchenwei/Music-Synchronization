@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "max_recomputed_metric_difference": 1.1102230246251565e-16,
+  "three_checkpoint_hashes_match": true,
+  "source_rows": 114,
+  "reported_goal5_test_piece_ids_absent_from_access_strings": true,
+  "test_label_mapping_absent": true,
+  "test_loaded": false
+}

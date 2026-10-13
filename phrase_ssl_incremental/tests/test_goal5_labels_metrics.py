@@ -6,6 +6,7 @@ import torch
 
 from src.goal5_downstream import BoundaryTransformer, decode, map_starts, match_f1
 from src.goal6_input_consistency import consistent_supervision
+from src.goal7_small_bigru import SmallBiGRU
 
 
 class DownstreamTests(unittest.TestCase):
@@ -58,6 +59,19 @@ class DownstreamTests(unittest.TestCase):
         self.assertFalse(hidden[:, :, 0:7].any())
         self.assertTrue((clean[hidden] == 0).all())
         self.assertFalse(missing.any())
+
+    def test_goal7_bigru_shape_padding_and_parameter_count(self):
+        model = SmallBiGRU().eval()
+        clean = torch.randn(2, 13, 58)
+        hidden = torch.zeros_like(clean, dtype=torch.bool)
+        missing = torch.zeros_like(clean, dtype=torch.bool)
+        lengths = torch.tensor([13, 7])
+        with torch.no_grad():
+            output = model(clean, hidden, missing, lengths)
+        self.assertEqual(output.shape, (2, 13))
+        self.assertTrue(torch.isfinite(output).all())
+        # 6005 model parameters plus two 58-D input-state tokens.
+        self.assertEqual(sum(parameter.numel() for parameter in model.parameters()), 6121)
 
 
 if __name__ == "__main__":
