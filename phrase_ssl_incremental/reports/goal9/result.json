@@ -1,0 +1,51 @@
+{
+  "status": "completed",
+  "scientific_status": "preliminary_decoder_diagnostic",
+  "new_training_runs": 0,
+  "test_loaded": false,
+  "prior": {
+    "mean": 25.265012239222763,
+    "works": 30,
+    "intervals": 317,
+    "support": 256,
+    "geometric_mixture": 0.5,
+    "smoothing_sigma": 1.0
+  },
+  "deltas": [
+    {
+      "seed": 17,
+      "P": 0.03609924701105738,
+      "R": 0.02558283730158739,
+      "F1": 0.03521015655158066,
+      "Exact_F1": 0.014117188677017223,
+      "AP": 0.0
+    },
+    {
+      "seed": 43,
+      "P": 0.049069598980335916,
+      "R": 0.04438469516594523,
+      "F1": 0.05075995562912783,
+      "Exact_F1": 0.03252739398378768,
+      "AP": 0.0
+    },
+    {
+      "seed": 89,
+      "P": 0.014713195194038853,
+      "R": 0.008424648268398283,
+      "F1": 0.013844986171903773,
+      "Exact_F1": 0.0013525593258520985,
+      "AP": 0.0
+    }
+  ],
+  "mean_delta": {
+    "seed": 49.666666666666664,
+    "P": 0.03329401372847738,
+    "R": 0.02613072691197697,
+    "F1": 0.03327169945087075,
+    "Exact_F1": 0.015999047328885668,
+    "AP": 0.0
+  },
+  "promoted_for_decoding_only": true,
+  "seconds": 2.984999999998763,
+  "limitation": "Validation replay only; any F1 gain is decoding, not improved representation or AP."
+}

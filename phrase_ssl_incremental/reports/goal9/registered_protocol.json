@@ -1,0 +1,52 @@
+{
+  "split": {
+    "train": [
+      "chopin_op06_no2",
+      "chopin_op06_no3",
+      "chopin_op06_no4",
+      "chopin_op07_no1",
+      "chopin_op07_no2",
+      "chopin_op17_no1",
+      "chopin_op17_no2",
+      "chopin_op17_no4",
+      "chopin_op24_no1",
+      "chopin_op24_no2",
+      "chopin_op24_no4",
+      "chopin_op30_no2",
+      "chopin_op30_no4",
+      "chopin_op33_no2",
+      "chopin_op41_no1",
+      "chopin_op41_no2",
+      "chopin_op41_no3",
+      "chopin_op41_no4",
+      "chopin_op56_no2",
+      "chopin_op56_no3",
+      "chopin_op59_no1",
+      "chopin_op59_no2",
+      "chopin_op59_no3",
+      "chopin_op63_no1",
+      "chopin_op63_no2",
+      "chopin_op67_no1",
+      "chopin_op67_no2",
+      "chopin_op67_no4",
+      "chopin_op68_no1",
+      "chopin_op68_no3"
+    ],
+    "validation": [
+      "chopin_op06_no1",
+      "chopin_op07_no3",
+      "chopin_op30_no3",
+      "chopin_op33_no4",
+      "chopin_op50_no1",
+      "chopin_op50_no3",
+      "chopin_op56_no1",
+      "chopin_op63_no3"
+    ]
+  },
+  "strength": 0.5,
+  "thresholds": "frozen Goal6 scratch thresholds",
+  "checkpoint_source_sha256": "ccd9f1d4176289e59836788e739de68e2698324795f5fdc175bdfac6f9280807",
+  "test_policy": "not loaded",
+  "status": "registered_before_replay",
+  "source_sha256": "ed26c21c6d380ea91f962c7fce542d06b3061ce7ff338ca25d5072f635668bfa"
+}

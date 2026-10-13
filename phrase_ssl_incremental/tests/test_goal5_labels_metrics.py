@@ -8,6 +8,7 @@ from src.goal5_downstream import BoundaryTransformer, decode, map_starts, match_
 from src.goal6_input_consistency import consistent_supervision
 from src.goal7_small_bigru import SmallBiGRU
 from src.goal8_novelty import novelty_features
+from src.goal9_interval_decoder import decode as interval_decode, fit_prior
 
 
 class DownstreamTests(unittest.TestCase):
@@ -83,6 +84,17 @@ class DownstreamTests(unittest.TestCase):
         self.assertEqual(int(novelty[0, :, 2].argmax()), 12)
         self.assertFalse(observed[0, :8, 2].any())
         self.assertFalse(observed[0, 17:, 2].any())
+
+    def test_goal9_interval_prior_is_train_only_and_decoder_is_ordered(self):
+        labels = {"a": (np.eye(1, 64, 8).ravel() + np.eye(1, 64, 24).ravel() + np.eye(1, 64, 40).ravel(), np.ones(64, bool))}
+        prior = fit_prior(labels, ["a"])
+        self.assertEqual(prior["works"], 1)
+        self.assertEqual(prior["intervals"], 2)
+        probability = np.full(64, 0.01)
+        probability[[8, 24, 40]] = [0.9, 0.8, 0.85]
+        prediction = interval_decode(probability, np.ones(64, bool), 0.5, prior)
+        self.assertEqual(prediction.tolist(), sorted(prediction.tolist()))
+        self.assertTrue(set(prediction).issubset({8, 24, 40}))
 
 
 if __name__ == "__main__":

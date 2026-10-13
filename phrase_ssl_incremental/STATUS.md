@@ -1,5 +1,12 @@
 # Project Status
 
+## Goal 9最新状态
+
+- `COMPLETE / implemented and locally reproduced; preliminary development diagnostic`：冻结Goal 6三份Scratch Transformer概率，只比较局部峰值与训练集句距动态规划解码。
+- 局部解码验证F1/Exact/AP为49.15%/38.69%/39.06%；句距解码为52.48%/40.29%/39.06%。F1三个seed全升，平均+3.33pp，按预注册门槛仅作为候选后处理晋级。
+- AP完全不变，说明增益来自输出结构约束，不是模型表征或概率排序提高；不能称为模型F1提升。
+- 未读取Goal 5测试集。下一步需作品级外层交叉验证或新终审作品，避免继续适配同一8首验证作品；详见`reports/goal9/report.md`。
+
 ## Goal 8最新状态
 
 - `COMPLETE / implemented and locally reproduced; preliminary development diagnostic`：在同一25维Transformer上加入2/4/8拍前后文novelty。
