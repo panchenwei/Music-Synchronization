@@ -1,5 +1,12 @@
 # Project Status
 
+## Goal 10最新状态
+
+- `COMPLETE / implemented and locally reproduced; preliminary nested OOF decoder evidence`：38首开发作品做5轮嵌套作品级评估，每首只外评一次；旧4首测试作品未加载。
+- 局部解码OOF F1/Exact/AP为45.22%/32.49%/35.38%；固定训练集句距解码为49.61%/35.99%/35.38%，F1 +4.39pp、Exact +3.50pp，4/5折同向。
+- AP完全不变，确认这是可迁移的输出结构收益，不是模型表征提升；句距解码作为候选后处理晋级。
+- 下一步测试最小的句距结构化训练损失，目标是同时提高AP与冻结解码后的F1；详见`reports/goal10/report.md`。
+
 ## Goal 9最新状态
 
 - `COMPLETE / implemented and locally reproduced; preliminary development diagnostic`：冻结Goal 6三份Scratch Transformer概率，只比较局部峰值与训练集句距动态规划解码。

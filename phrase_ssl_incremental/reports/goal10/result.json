@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "scientific_status": "preliminary_nested_oof_decoder_evidence",
+  "test_loaded": false,
+  "development_works": 38,
+  "outer_predictions_per_work": 1,
+  "overall": {
+    "local": {
+      "P": 0.410756800560818,
+      "R": 0.5722184915262719,
+      "F1": 0.4522314116080247,
+      "Exact_F1": 0.32486273765886653,
+      "AP": 0.35383477482745607
+    },
+    "interval": {
+      "P": 0.4534679000134675,
+      "R": 0.5990165361589848,
+      "F1": 0.49610524729604744,
+      "Exact_F1": 0.35989543591004813,
+      "AP": 0.35383477482745607
+    }
+  },
+  "interval_minus_local": {
+    "P": 0.042711099452649504,
+    "R": 0.026798044632712847,
+    "F1": 0.04387383568802272,
+    "Exact_F1": 0.035032698251181604,
+    "AP": 0.0
+  },
+  "positive_fold_counts": {
+    "P": 5,
+    "R": 3,
+    "F1": 4,
+    "Exact_F1": 4,
+    "AP": 0
+  },
+  "promoted_for_decoding_only": true,
+  "seconds": 36.17200000000048,
+  "limitation": "Nested OOF on the 38 development works, not a new corpus or terminal test; model seed fixed to 43."
+}

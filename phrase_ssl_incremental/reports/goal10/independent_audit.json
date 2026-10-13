@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "max_recomputed_overall_metric_difference": 5.551115123125783e-17,
+  "max_recomputed_fold_metric_difference": 1.1102230246251565e-16,
+  "max_AP_difference_between_decoders": 0.0,
+  "five_checkpoint_hashes_match": true,
+  "nested_splits_disjoint": true,
+  "unique_outer_works": 38,
+  "each_development_work_outer_once": true,
+  "oof_performance_rows": 152,
+  "source_rows": 114,
+  "reserved_goal5_test_works_absent": true,
+  "test_label_mapping_absent": true,
+  "test_loaded": false
+}

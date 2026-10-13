@@ -30,6 +30,7 @@ DCML/MazurkaBL 数据，但自行生成清单、缓存、模型和报告；不�
 | 7 | 6,121参数BiGRU与Transformer同条件比较 | implemented / reproduced；BiGRU未晋级 |
 | 8 | 2/4/8拍多尺度novelty输入 | implemented / reproduced；弱信号、未晋级 |
 | 9 | 冻结概率的训练集句距动态规划解码 | implemented / reproduced；仅解码候选晋级 |
+| 10 | 38首开发作品的嵌套五折句距解码验证 | implemented / reproduced；4/5折同向，解码晋级 |
 
 Goal 5模型是58→64投影、2层Transformer Encoder、4头、FFN128、动态正弦
 位置编码和逐拍二分类头，共71,029参数。30/8/4首作品按作品隔离，每首取前
@@ -47,6 +48,11 @@ F1由49.15%提高到52.48%，三个seed同向，但AP保持39.06%。这说明句
 解码能回收一部分事件决策损失，不能解释成模型表征提高；结果仍只属于开发集
 诊断。详见[`reports/goal9/report.md`](reports/goal9/report.md)。
 
+Goal 10进一步让38首开发作品每首只作一次外层评估：固定句距解码把OOF
+F1从45.22%提高到49.61%（+4.39pp），Exact F1提高3.50pp，4/5折同向，
+但AP保持35.38%。因此结构化解码具有可迁移证据，模型概率排序偏弱的问题仍未
+解决。详见[`reports/goal10/report.md`](reports/goal10/report.md)。
+
 这与旧版BiGRU的内部83.49%或历史留出63.70%使用不同划分、演奏数量、模型、
 标签覆盖和解码协议，不能直接作为同条件涨跌。最终模型家族仍未固定。
 
@@ -62,6 +68,7 @@ F1由49.15%提高到52.48%，三个seed同向，但AP保持39.06%。这说明句
 - 小BiGRU对照：[`src/goal7_small_bigru.py`](src/goal7_small_bigru.py)
 - 多尺度novelty：[`src/goal8_novelty.py`](src/goal8_novelty.py)
 - 训练集句距解码：[`src/goal9_interval_decoder.py`](src/goal9_interval_decoder.py)
+- 嵌套作品级解码验证：[`src/goal10_nested_decoder_cv.py`](src/goal10_nested_decoder_cv.py)
 
 ## 在另一台电脑运行
 

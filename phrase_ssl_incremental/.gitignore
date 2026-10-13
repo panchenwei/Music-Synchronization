@@ -26,6 +26,14 @@ manifests/**/source_inventory.csv
 manifests/**/*.csv.gz
 manifests/**/piece_audit.csv
 
+# Goal 10 keeps consolidated OOF tables; these per-fold copies are rebuildable.
+reports/goal10/fold*/train_label_mapping.csv
+reports/goal10/fold*/inner_label_mapping.csv
+reports/goal10/fold*/outer_label_mapping.csv
+reports/goal10/fold*/train_interval_prior.json
+reports/goal10/fold*/learning_curve.csv
+reports/goal10/fold*/outer_performance_metrics.csv
+
 # 防止误把原始数据复制进新项目。
 data/
 datasets/

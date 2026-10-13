@@ -9,6 +9,7 @@ from src.goal6_input_consistency import consistent_supervision
 from src.goal7_small_bigru import SmallBiGRU
 from src.goal8_novelty import novelty_features
 from src.goal9_interval_decoder import decode as interval_decode, fit_prior
+from src.goal10_nested_decoder_cv import build_nested_splits
 
 
 class DownstreamTests(unittest.TestCase):
@@ -95,6 +96,19 @@ class DownstreamTests(unittest.TestCase):
         prediction = interval_decode(probability, np.ones(64, bool), 0.5, prior)
         self.assertEqual(prediction.tolist(), sorted(prediction.tolist()))
         self.assertTrue(set(prediction).issubset({8, 24, 40}))
+
+    def test_goal10_nested_splits_are_disjoint_and_outer_once(self):
+        pieces = [f"piece_{index}" for index in range(38)]
+        splits = build_nested_splits(pieces)
+        self.assertEqual(len(splits), 5)
+        outer = []
+        for split in splits:
+            self.assertFalse(set(split["train"]) & set(split["inner"]))
+            self.assertFalse(set(split["train"]) & set(split["outer"]))
+            self.assertFalse(set(split["inner"]) & set(split["outer"]))
+            self.assertEqual(set(split["train"] + split["inner"] + split["outer"]), set(pieces))
+            outer.extend(split["outer"])
+        self.assertEqual(sorted(outer), sorted(pieces))
 
 
 if __name__ == "__main__":
